@@ -126,8 +126,8 @@ def process(args):
     create_commands(os.path.join(id_dir, "v3"), scenes, v3_cmd)
     create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
 
-    execute_commands(os.path.join(id_dir, "v3"), scenes[2:3])
-    execute_commands(os.path.join(id_dir, "r3"), scenes[2:3])
+    execute_commands(os.path.join(id_dir, "v3"), scenes)
+    execute_commands(os.path.join(id_dir, "r3"), scenes)
 
     return 0
 
