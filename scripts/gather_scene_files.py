@@ -1,7 +1,15 @@
 import os
 import argparse
 import glob
-import shutil
+
+
+def caontains_film(pbrt):
+    with open(pbrt, "r") as f:
+        lines = f.readlines()
+        for line in lines:
+            if "Film " in line:
+                return True
+    return False
 
 
 def gather_scenes(scenes_dir):
@@ -10,14 +18,26 @@ def gather_scenes(scenes_dir):
 
     if not os.path.exists(images_dir):
         return []
+
+    dirs = set()
     paths = glob.glob(os.path.join(images_dir, "*", "*.exr"))
     paths = [path.replace("/images", "") for path in paths]
-    paths = [path.replace(".exr", ".pbrt") for path in paths]
+    for path in paths:
+        dirs.add(os.path.split(path)[0])
+
+    paths = []
+    for dir in dirs:
+        pbrts = glob.glob(os.path.join(dir, "*.pbrt"))
+        for pbrt in pbrts:
+            if caontains_film(pbrt):
+                paths.append(pbrt)
+
     paths = [os.path.relpath(path, scenes_dir) for path in paths]
-        
+
     paths = sorted(paths)
 
     return paths
+
 
 def write_scenes(scenes, output_scenes):
     os.makedirs(os.path.dirname(output_scenes), exist_ok=True)
@@ -46,7 +66,7 @@ def main():
     parser.add_argument(
         "-o",
         "--output_scenes",
-        default="./work/scenes.txt",
+        default="./results/scenes.txt",
         help="Output scenes file",
     )
     args = parser.parse_args()
