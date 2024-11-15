@@ -1,0 +1,6 @@
+[submodule "pbrt-r3"]
+	path = pbrt-r3
+	url = git@github.com:ototoi/pbrt-r3.git
+[submodule "pbrt-v3"]
+	path = pbrt-v3
+	url = git@github.com:mmp/pbrt-v3.git
