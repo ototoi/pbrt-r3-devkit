@@ -4,3 +4,6 @@
 [submodule "pbrt-v3"]
 	path = pbrt-v3
 	url = git@github.com:mmp/pbrt-v3.git
+[submodule "pbrt-v3-scenes"]
+	path = pbrt-v3-scenes
+	url = https://gitlab.com/zhoub/pbrt-v3-scenes.git
