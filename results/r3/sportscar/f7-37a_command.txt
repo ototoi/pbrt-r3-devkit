@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/sportscar/f7-37a.pbrt,./work/202411160456/r3/sportscar,f7-37a_log.txt,f7-37a_time.txt

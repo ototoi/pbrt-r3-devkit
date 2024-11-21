@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/bunny-fur/f3-15.pbrt,./work/202411160456/r3/bunny-fur,f3-15_log.txt,f3-15_time.txt

@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/villa/f16-20b.pbrt,./work/202411160456/r3/villa,f16-20b_log.txt,f16-20b_time.txt

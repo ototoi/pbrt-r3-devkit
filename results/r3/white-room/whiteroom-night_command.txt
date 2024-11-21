@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/white-room/whiteroom-night.pbrt,./work/202411160456/r3/white-room,whiteroom-night_log.txt,whiteroom-night_time.txt

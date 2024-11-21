@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/sanmiguel/sanmiguel_cam3.pbrt,./work/202411160456/r3/sanmiguel,sanmiguel_cam3_log.txt,sanmiguel_cam3_time.txt

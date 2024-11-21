@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/yeahright/yeahright.pbrt,./work/202411160456/r3/yeahright,yeahright_log.txt,yeahright_time.txt

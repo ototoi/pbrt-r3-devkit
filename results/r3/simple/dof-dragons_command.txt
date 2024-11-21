@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/simple/dof-dragons.pbrt,./work/202411160456/r3/simple,dof-dragons_log.txt,dof-dragons_time.txt

@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/sportscar/f12-19b.pbrt,./work/202411160456/r3/sportscar,f12-19b_log.txt,f12-19b_time.txt

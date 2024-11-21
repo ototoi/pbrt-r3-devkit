@@ -1,0 +1,50 @@
+pbrt-r3 version 3.0.1 [Detected 24 cores]
+
+This is an unofficial Rust port of pbrt-v3.
+The source code of this port is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+The license for the original implementation pbrt-v3 is as follows:
+--------------------------------------------------------------------------------------
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+--------------------------------------------------------------------------------------
+
+Statistics:
+ Texture
+   Trilinear lookups 2097152
+ Scene
+   Materials 14
+   Shapes 298912
+   Lights 1
+ BVH
+   Interior nodes 98687
+   Leaf nodes 98688
+ Memory
+   Texture MIP maps 8.0 MiB
+
+
+
+Statistics:
+ SpatialLightDistribution
+   Distributions created 4794
+   Hash probes per lookup 1.006 avg [ range " 1 " - " 2 "]
+ Integrator
+   Camera rays traced 1645780992
+   Surface interactions 4658524985
+   Path length 1.831 avg [ range " 0 " - " 25 "]
+ Texture
+   Trilinear lookups 4695111670
+ Memory
+   Texture MIP maps 8.0 MiB
+ Intersections
+   Regular ray intersection tests 8921688200
+ BVH
+   Leaf nodes 98688
+   Interior nodes 98687
+ Scene
+   Materials 14
+   Shapes 298912
+   Lights 1
+

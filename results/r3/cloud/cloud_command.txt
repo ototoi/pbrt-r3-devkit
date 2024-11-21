@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/cloud/cloud.pbrt,./work/202411160456/r3/cloud,cloud_log.txt,cloud_time.txt

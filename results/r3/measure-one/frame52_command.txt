@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/measure-one/frame52.pbrt,./work/202411160456/r3/measure-one,frame52_log.txt,frame52_time.txt

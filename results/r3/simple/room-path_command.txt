@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/simple/room-path.pbrt,./work/202411160456/r3/simple,room-path_log.txt,room-path_time.txt

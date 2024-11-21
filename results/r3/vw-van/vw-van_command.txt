@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/vw-van/vw-van.pbrt,./work/202411160456/r3/vw-van,vw-van_log.txt,vw-van_time.txt

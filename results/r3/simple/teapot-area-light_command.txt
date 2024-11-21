@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/simple/teapot-area-light.pbrt,./work/202411160456/r3/simple,teapot-area-light_log.txt,teapot-area-light_time.txt

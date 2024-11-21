@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/volume-caustic/f16-22b.pbrt,./work/202411160456/r3/volume-caustic,f16-22b_log.txt,f16-22b_time.txt

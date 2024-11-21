@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/measure-one/frame85.pbrt,./work/202411160456/r3/measure-one,frame85_log.txt,frame85_time.txt

@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/sanmiguel/f10-8.pbrt,./work/202411160456/r3/sanmiguel,f10-8_log.txt,f10-8_time.txt

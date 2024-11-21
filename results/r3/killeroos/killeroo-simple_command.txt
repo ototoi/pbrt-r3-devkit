@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/killeroos/killeroo-simple.pbrt,./work/202411160456/r3/killeroos,killeroo-simple_log.txt,killeroo-simple_time.txt

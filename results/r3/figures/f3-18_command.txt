@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/figures/f3-18.pbrt,./work/202411160456/r3/figures,f3-18_log.txt,f3-18_time.txt

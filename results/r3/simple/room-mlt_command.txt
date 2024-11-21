@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/simple/room-mlt.pbrt,./work/202411160456/r3/simple,room-mlt_log.txt,room-mlt_time.txt

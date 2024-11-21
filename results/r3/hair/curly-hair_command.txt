@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/hair/curly-hair.pbrt,./work/202411160456/r3/hair,curly-hair_log.txt,curly-hair_time.txt

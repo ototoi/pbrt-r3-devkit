@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/cloud/f15-4a.pbrt,./work/202411160456/r3/cloud,f15-4a_log.txt,f15-4a_time.txt

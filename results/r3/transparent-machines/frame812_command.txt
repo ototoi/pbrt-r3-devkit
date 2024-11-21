@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/transparent-machines/frame812.pbrt,./work/202411160456/r3/transparent-machines,frame812_log.txt,frame812_time.txt

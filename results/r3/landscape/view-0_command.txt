@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/landscape/view-0.pbrt,./work/202411160456/r3/landscape,view-0_log.txt,view-0_time.txt

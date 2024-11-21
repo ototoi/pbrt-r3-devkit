@@ -1,0 +1,1 @@
+./pbrt-r3/target/release/pbrt-r3,./pbrt-v3-scenes/dragon/f15-13.pbrt,./work/202411160456/r3/dragon,f15-13_log.txt,f15-13_time.txt
