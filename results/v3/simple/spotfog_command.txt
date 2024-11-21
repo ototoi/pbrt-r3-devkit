@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/spotfog.pbrt,./work/202411160456/v3/simple,spotfog_log.txt,spotfog_time.txt

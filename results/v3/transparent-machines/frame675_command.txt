@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/transparent-machines/frame675.pbrt,./work/202411160456/v3/transparent-machines,frame675_log.txt,frame675_time.txt

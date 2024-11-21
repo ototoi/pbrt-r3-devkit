@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/ecosys/ecosys.pbrt,./work/202411160456/v3/ecosys,ecosys_log.txt,ecosys_time.txt

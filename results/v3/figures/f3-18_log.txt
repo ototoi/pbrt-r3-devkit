@@ -1,0 +1,184 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [                                           ]  (0.3s|?s)  
+Rendering: [+                                          ]  (0.5s|39.2s)  
+Rendering: [+                                          ]  (0.8s|29.0s)  
+Rendering: [+                                          ]  (1.0s|30.7s)  
+Rendering: [++                                         ]  (1.3s|31.8s)  
+Rendering: [++                                         ]  (1.5s|28.2s)  
+Rendering: [++                                         ]  (1.8s|28.5s)  
+Rendering: [+++                                        ]  (2.0s|29.7s)  
+Rendering: [+++                                        ]  (2.3s|27.7s)  
+Rendering: [++++                                       ]  (2.5s|27.4s)  
+Rendering: [++++                                       ]  (3.0s|27.5s)  
+Rendering: [+++++                                      ]  (3.5s|27.6s)  
+Rendering: [++++++                                     ]  (4.0s|26.2s)  
+Rendering: [++++++                                     ]  (4.5s|26.5s)  
+Rendering: [+++++++                                    ]  (5.0s|26.0s)  
+Rendering: [+++++++                                    ]  (5.5s|26.3s)  
+Rendering: [++++++++                                   ]  (6.0s|25.9s)  
+Rendering: [+++++++++                                  ]  (6.5s|25.9s)  
+Rendering: [+++++++++                                  ]  (7.0s|25.4s)  
+Rendering: [++++++++++                                 ]  (7.5s|25.3s)  
+Rendering: [++++++++++                                 ]  (8.0s|25.0s)  
+Rendering: [+++++++++++                                ]  (8.5s|24.7s)  
+Rendering: [++++++++++++                               ]  (9.0s|24.3s)  
+Rendering: [++++++++++++                               ]  (9.5s|24.1s)  
+Rendering: [+++++++++++++                              ]  (10.0s|23.8s)  
+Rendering: [+++++++++++++                              ]  (10.5s|23.5s)  
+Rendering: [++++++++++++++                             ]  (11.0s|23.2s)  
+Rendering: [++++++++++++++                             ]  (11.5s|22.9s)  
+Rendering: [+++++++++++++++                            ]  (12.0s|22.6s)  
+Rendering: [+++++++++++++++                            ]  (12.5s|22.3s)  
+Rendering: [++++++++++++++++                           ]  (13.0s|21.8s)  
+Rendering: [+++++++++++++++++                          ]  (13.5s|21.6s)  
+Rendering: [+++++++++++++++++                          ]  (14.0s|21.1s)  
+Rendering: [++++++++++++++++++                         ]  (14.5s|21.0s)  
+Rendering: [++++++++++++++++++                         ]  (15.0s|20.4s)  
+Rendering: [+++++++++++++++++++                        ]  (15.5s|20.3s)  
+Rendering: [+++++++++++++++++++                        ]  (16.0s|19.7s)  
+Rendering: [+++++++++++++++++++                        ]  (16.5s|19.9s)  
+Rendering: [++++++++++++++++++++                       ]  (17.0s|19.6s)  
+Rendering: [+++++++++++++++++++++                      ]  (17.5s|19.2s)  
+Rendering: [+++++++++++++++++++++                      ]  (18.0s|19.1s)  
+Rendering: [+++++++++++++++++++++                      ]  (18.5s|18.5s)  
+Rendering: [++++++++++++++++++++++                     ]  (19.0s|18.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (19.5s|18.2s)  
+Rendering: [+++++++++++++++++++++++                    ]  (20.0s|17.8s)  
+Rendering: [+++++++++++++++++++++++                    ]  (20.5s|17.6s)  
+Rendering: [++++++++++++++++++++++++                   ]  (21.0s|17.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (21.5s|16.9s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (22.0s|16.4s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (22.5s|16.0s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (23.0s|15.7s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (23.5s|15.2s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (24.0s|14.8s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (24.5s|14.3s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (25.0s|14.1s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (25.5s|13.6s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (26.0s|13.3s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (26.5s|12.9s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (27.0s|12.4s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (27.5s|11.9s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (28.0s|11.4s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (28.5s|10.9s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (29.0s|10.4s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (29.5s|9.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (30.0s|9.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (30.5s|8.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (31.0s|8.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (31.5s|7.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (32.0s|7.3s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (32.5s|6.9s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (33.5s|5.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (34.5s|4.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (35.5s|3.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (36.5s|2.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (37.5s|1.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (38.5s)       
+Statistics:
+  BVH
+    Interior nodes                                                     24
+    Leaf nodes                                                         25
+    Primitives per leaf node                            26 /           25 (1.04x)
+  Integrator
+    Camera rays traced                                          245760000
+    Path length                                                     1.133 avg [range 0 - 5]
+    Zero-radiance paths                           30744942 /    280970437 (10.94%)
+  Intersections
+    Regular ray intersection tests                              699224457
+    Shadow ray intersection tests                               186347715
+    Curve refinement level                                          0.877 avg [range 0 - 1]
+    Ray-curve intersection tests                  69165948 /    668688842 (10.34%)
+    Ray-triangle intersection tests              278566132 /    554498726 (50.24%)
+  Memory
+    BVH tree                                                         1.98 kB
+    Curves                                                           1.58 kB
+    Film pixels                                                     14.65 MiB
+    Primitives                                                       1.83 kB
+    Texture MIP maps                                                17.00 MiB
+    TransformCache                                                 260.00 kB
+    Triangle meshes                                                  0.31 kB
+  Scene
+    Curves                                                              3
+    Lights                                                              2
+    Materials created                                                   5
+    Shapes created                                                     26
+    Split curves                                                       24
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                                  2 /           10 (20.00%)
+    Triangles per triangle mesh                          2 /            1 (2.00x)
+  SpatialLightDistribution
+    Distributions created                                            4096
+    Hash probes per lookup                                          1.000 avg [range 1 - 5]
+    Lookups per distribution                     280970437 /         4096 (68596.30x)
+  Texture
+    EWA lookups                                                  44508824
+    Trilinear lookups                                           329719101
+  Profile
+    Integrator::Render()                                            99.98% (   0:00:38.58)
+      Camera::GenerateRay[Differential]()                            2.52% (   0:00:00.97)
+      Film::AddSample()                                              1.55% (   0:00:00.59)
+      Sampler::GetSample[12]D()                                      5.06% (   0:00:01.95)
+      SamplerIntegrator::Li()                                       88.32% (   0:00:34.08)
+        Accelerator::Intersect()                                    30.52% (   0:00:11.77)
+          Curve::Intersect()                                        17.66% (   0:00:06.81)
+          Triangle::Intersect()                                      5.51% (   0:00:02.12)
+        BSDF::Sample_f()                                             4.15% (   0:00:01.60)
+        Direct lighting                                             42.06% (   0:00:16.23)
+          Accelerator::Intersect()                                   7.50% (   0:00:02.89)
+            Curve::Intersect()                                       4.97% (   0:00:01.91)
+            Triangle::Intersect()                                    0.26% (   0:00:00.09)
+          Accelerator::IntersectP()                                  6.66% (   0:00:02.56)
+            Curve::IntersectP()                                      4.22% (   0:00:01.62)
+            Triangle::IntersectP()                                   0.06% (   0:00:00.02)
+          BSDF::PDF()                                                1.00% (   0:00:00.38)
+          BSDF::Sample_f()                                           2.64% (   0:00:01.01)
+          BSDF::f()                                                  1.28% (   0:00:00.49)
+          Light::Pdf()                                               2.36% (   0:00:00.91)
+          Light::Sample_*()                                          6.24% (   0:00:02.40)
+            MIPMap::Lookup() (trilinear)                             1.59% (   0:00:00.61)
+          MIPMap::Lookup() (trilinear)                               1.28% (   0:00:00.49)
+          Sampler::GetSample[12]D()                                  5.70% (   0:00:02.19)
+        Material::ComputeScatteringFunctions()                       2.90% (   0:00:01.11)
+          MIPMap::Lookup() (EWA)                                     1.11% (   0:00:00.42)
+        Sampler::GetSample[12]D()                                    2.32% (   0:00:00.89)
+        SpatialLightDistribution lookup                              0.84% (   0:00:00.32)
+          SpatialLightDistribution creation                          0.03% (   0:00:00.01)
+            Light::Sample_*()                                        0.02% (   0:00:00.00)
+              MIPMap::Lookup() (trilinear)                           0.00% (   0:00:00.00)
+    Scene parsing and creation                                       0.02% (   0:00:00.00)
+      MIPMap::Lookup() (trilinear)                                   0.00% (   0:00:00.00)
+      Texture loading                                                0.01% (   0:00:00.00)
+        MIP map generation                                           0.00% (   0:00:00.00)
+  Profile (flattened)
+    Curve::Intersect()                                              22.63% (   0:00:08.73)
+    Sampler::GetSample[12]D()                                       13.08% (   0:00:05.04)
+    Accelerator::Intersect()                                         9.61% (   0:00:03.70)
+    Direct lighting                                                  7.41% (   0:00:02.86)
+    BSDF::Sample_f()                                                 6.80% (   0:00:02.62)
+    Triangle::Intersect()                                            5.77% (   0:00:02.22)
+    SamplerIntegrator::Li()                                          5.53% (   0:00:02.13)
+    Light::Sample_*()                                                4.67% (   0:00:01.80)
+    Curve::IntersectP()                                              4.22% (   0:00:01.62)
+    MIPMap::Lookup() (trilinear)                                     2.87% (   0:00:01.10)
+    Integrator::Render()                                             2.52% (   0:00:00.97)
+    Camera::GenerateRay[Differential]()                              2.52% (   0:00:00.97)
+    Accelerator::IntersectP()                                        2.37% (   0:00:00.91)
+    Light::Pdf()                                                     2.36% (   0:00:00.91)
+    Material::ComputeScatteringFunctions()                           1.79% (   0:00:00.68)
+    Film::AddSample()                                                1.55% (   0:00:00.59)
+    BSDF::f()                                                        1.28% (   0:00:00.49)
+    MIPMap::Lookup() (EWA)                                           1.11% (   0:00:00.42)
+    BSDF::PDF()                                                      1.00% (   0:00:00.38)
+    SpatialLightDistribution lookup                                  0.81% (   0:00:00.31)
+    Triangle::IntersectP()                                           0.06% (   0:00:00.02)
+    Scene parsing and creation                                       0.01% (   0:00:00.00)
+    Texture loading                                                  0.01% (   0:00:00.00)
+    SpatialLightDistribution creation                                0.01% (   0:00:00.00)
+    MIP map generation                                               0.00% (   0:00:00.00)
+

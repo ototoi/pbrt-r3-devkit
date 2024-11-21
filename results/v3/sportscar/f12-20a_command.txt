@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/sportscar/f12-20a.pbrt,./work/202411160456/v3/sportscar,f12-20a_log.txt,f12-20a_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/smoke-plume/plume-084.pbrt,./work/202411160456/v3/smoke-plume,plume-084_log.txt,plume-084_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/barcelona-pavilion/pavilion-day.pbrt,./work/202411160456/v3/barcelona-pavilion,pavilion-day_log.txt,pavilion-day_time.txt

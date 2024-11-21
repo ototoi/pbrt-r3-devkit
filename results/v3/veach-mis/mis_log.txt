@@ -1,0 +1,101 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [++++++                                     ]  (0.3s|1.6s)  
+Rendering: [++++++++++++                               ]  (0.5s|1.3s)  
+Rendering: [+++++++++++++++++                          ]  (0.8s|1.1s)  
+Rendering: [+++++++++++++++++++++                      ]  (1.0s|1.0s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (1.3s|0.9s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (1.5s|0.6s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (1.8s|0.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (2.0s|0.2s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (2.3s)       
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (2.5s)       
+Statistics:
+  BVH
+    Interior nodes                                                     10
+    Leaf nodes                                                         11
+    Primitives per leaf node                            17 /           11 (1.55x)
+  Integrator
+    Camera rays traced                                           15925248
+    Path length                                                     0.958 avg [range 0 - 1]
+    Zero-radiance paths                            1674676 /     15276302 (10.96%)
+  Intersections
+    Regular ray intersection tests                               46453356
+    Shadow ray intersection tests                                15276298
+    Ray-triangle intersection tests               39478956 /    116005644 (34.03%)
+  Memory
+    BVH tree                                                         0.97 kB
+    Film pixels                                                     30.38 MiB
+    Primitives                                                       1.20 kB
+    TransformCache                                                 260.00 kB
+    Triangle meshes                                                  1.76 kB
+  Scene
+    AreaLights                                                          5
+    Lights                                                              5
+    Materials created                                                  10
+    Shapes created                                                     17
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                                 14 /           22 (63.64%)
+    Triangles per triangle mesh                         12 /            5 (2.40x)
+  SpatialLightDistribution
+    Distributions created                                            1510
+    Hash probes per lookup                                          1.001 avg [range 1 - 2]
+    Lookups per distribution                      15925248 /         1510 (10546.52x)
+  Profile
+    Integrator::Render()                                            99.73% (   0:00:02.60)
+      Camera::GenerateRay[Differential]()                            2.80% (   0:00:00.07)
+      Film::AddSample()                                              1.27% (   0:00:00.03)
+      Sampler::GetSample[12]D()                                      4.75% (   0:00:00.12)
+      SamplerIntegrator::Li()                                       87.79% (   0:00:02.29)
+        Accelerator::Intersect()                                    20.93% (   0:00:00.54)
+          Other Shape::Intersect()                                   3.21% (   0:00:00.08)
+          Triangle::Intersect()                                     10.31% (   0:00:00.26)
+        BSDF::Sample_f()                                             5.33% (   0:00:00.13)
+        Direct lighting                                             52.53% (   0:00:01.37)
+          Accelerator::Intersect()                                   9.67% (   0:00:00.25)
+            Other Shape::Intersect()                                 2.03% (   0:00:00.05)
+            Triangle::Intersect()                                    3.62% (   0:00:00.09)
+          Accelerator::IntersectP()                                 17.54% (   0:00:00.45)
+            Other Shape::IntersectP()                               13.79% (   0:00:00.36)
+            Triangle::IntersectP()                                   0.63% (   0:00:00.01)
+          BSDF::PDF()                                                1.22% (   0:00:00.03)
+          BSDF::Sample_f()                                           6.15% (   0:00:00.16)
+          BSDF::f()                                                  1.49% (   0:00:00.03)
+          Light::Pdf()                                               1.58% (   0:00:00.04)
+          Light::Sample_*()                                          3.25% (   0:00:00.08)
+          Sampler::GetSample[12]D()                                  4.93% (   0:00:00.12)
+        Material::ComputeScatteringFunctions()                       1.31% (   0:00:00.03)
+        Sampler::GetSample[12]D()                                    1.36% (   0:00:00.03)
+        SpatialLightDistribution lookup                              0.86% (   0:00:00.02)
+          SpatialLightDistribution creation                          0.18% (   0:00:00.00)
+            Light::Sample_*()                                        0.14% (   0:00:00.00)
+          SpatialLightDistribution spin wait                         0.09% (   0:00:00.00)
+    Scene parsing and creation                                       0.27% (   0:00:00.00)
+  Profile (flattened)
+    Triangle::Intersect()                                           13.92% (   0:00:00.36)
+    Other Shape::IntersectP()                                       13.79% (   0:00:00.36)
+    BSDF::Sample_f()                                                11.48% (   0:00:00.30)
+    Accelerator::Intersect()                                        11.44% (   0:00:00.29)
+    Sampler::GetSample[12]D()                                       11.03% (   0:00:00.28)
+    Direct lighting                                                  6.69% (   0:00:00.17)
+    SamplerIntegrator::Li()                                          5.47% (   0:00:00.14)
+    Other Shape::Intersect()                                         5.24% (   0:00:00.13)
+    Light::Sample_*()                                                3.39% (   0:00:00.08)
+    Accelerator::IntersectP()                                        3.12% (   0:00:00.08)
+    Integrator::Render()                                             3.12% (   0:00:00.08)
+    Camera::GenerateRay[Differential]()                              2.80% (   0:00:00.07)
+    Light::Pdf()                                                     1.58% (   0:00:00.04)
+    BSDF::f()                                                        1.49% (   0:00:00.03)
+    Material::ComputeScatteringFunctions()                           1.31% (   0:00:00.03)
+    Film::AddSample()                                                1.27% (   0:00:00.03)
+    BSDF::PDF()                                                      1.22% (   0:00:00.03)
+    Triangle::IntersectP()                                           0.63% (   0:00:00.01)
+    SpatialLightDistribution lookup                                  0.59% (   0:00:00.01)
+    Scene parsing and creation                                       0.27% (   0:00:00.00)
+    SpatialLightDistribution spin wait                               0.09% (   0:00:00.00)
+    SpatialLightDistribution creation                                0.05% (   0:00:00.00)
+

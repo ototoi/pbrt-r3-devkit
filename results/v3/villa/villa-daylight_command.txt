@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/villa/villa-daylight.pbrt,./work/202411160456/v3/villa,villa-daylight_log.txt,villa-daylight_time.txt

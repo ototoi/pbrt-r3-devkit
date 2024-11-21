@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/cloud/smoke.pbrt,./work/202411160456/v3/cloud,smoke_log.txt,smoke_time.txt

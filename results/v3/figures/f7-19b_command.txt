@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/figures/f7-19b.pbrt,./work/202411160456/v3/figures,f7-19b_log.txt,f7-19b_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/hair/straight-hair.pbrt,./work/202411160456/v3/hair,straight-hair_log.txt,straight-hair_time.txt

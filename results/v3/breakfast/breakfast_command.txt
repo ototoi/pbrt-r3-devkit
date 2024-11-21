@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/breakfast/breakfast.pbrt,./work/202411160456/v3/breakfast,breakfast_log.txt,breakfast_time.txt

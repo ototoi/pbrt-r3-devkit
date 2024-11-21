@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/room-path.pbrt,./work/202411160456/v3/simple,room-path_log.txt,room-path_time.txt

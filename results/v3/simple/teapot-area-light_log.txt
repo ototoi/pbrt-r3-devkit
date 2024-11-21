@@ -1,0 +1,77 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [+++++++++++++++++++++                      ]  (0.3s|0.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (0.5s|0.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (0.8s)       
+Statistics:
+  Integrator
+    Camera rays traced                                             540800
+  Intersections
+    Regular ray intersection tests                                 753230
+    Shadow ray intersection tests                                 4237449
+    Ray-triangle intersection tests                2767342 /     87552655 (3.16%)
+  Memory
+    Film pixels                                                      2.00 MiB
+    Primitives                                                     163.76 kB
+    TransformCache                                                 260.00 kB
+    Triangle meshes                                                601.69 kB
+  Scene
+    AreaLights                                                          1
+    Lights                                                              2
+    Materials created                                                   4
+    Shapes created                                                   2329
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                               4584 /         4588 (99.91%)
+    Triangles per triangle mesh                       2328 /         2292 (1.02x)
+  Profile
+    Integrator::Render()                                            99.48% (   0:00:00.78)
+      Camera::GenerateRay[Differential]()                            0.17% (   0:00:00.00)
+      Film::AddSample()                                              0.52% (   0:00:00.00)
+      Sampler::GetSample[12]D()                                      0.87% (   0:00:00.00)
+      Sampler::StartPixelSample()                                   37.22% (   0:00:00.29)
+      SamplerIntegrator::Li()                                       58.09% (   0:00:00.45)
+        Accelerator::Intersect()                                     3.30% (   0:00:00.02)
+          Other Shape::Intersect()                                   0.17% (   0:00:00.00)
+          Triangle::Intersect()                                      1.74% (   0:00:00.01)
+        Direct lighting                                             53.91% (   0:00:00.42)
+          Accelerator::Intersect()                                   1.57% (   0:00:00.01)
+            Other Shape::Intersect()                                 0.52% (   0:00:00.00)
+            Triangle::Intersect()                                    0.87% (   0:00:00.00)
+          Accelerator::IntersectP()                                 23.48% (   0:00:00.18)
+            Other Shape::IntersectP()                                0.70% (   0:00:00.00)
+            Triangle::IntersectP()                                  10.96% (   0:00:00.08)
+          BSDF::PDF()                                                2.96% (   0:00:00.02)
+          BSDF::Sample_f()                                          13.57% (   0:00:00.10)
+          BSDF::f()                                                  4.17% (   0:00:00.03)
+          Light::Pdf()                                               2.78% (   0:00:00.02)
+            Other Shape::Intersect()                                 1.74% (   0:00:00.01)
+          Light::Sample_*()                                          3.13% (   0:00:00.02)
+        Sampler::GetSample[12]D()                                    0.17% (   0:00:00.00)
+    Scene parsing and creation                                       0.52% (   0:00:00.00)
+      Acceleration structure creation                                0.17% (   0:00:00.00)
+  Profile (flattened)
+    Sampler::StartPixelSample()                                     37.22% (   0:00:00.29)
+    BSDF::Sample_f()                                                13.57% (   0:00:00.10)
+    Accelerator::IntersectP()                                       11.83% (   0:00:00.09)
+    Triangle::IntersectP()                                          10.96% (   0:00:00.08)
+    BSDF::f()                                                        4.17% (   0:00:00.03)
+    Light::Sample_*()                                                3.13% (   0:00:00.02)
+    BSDF::PDF()                                                      2.96% (   0:00:00.02)
+    Triangle::Intersect()                                            2.61% (   0:00:00.02)
+    Integrator::Render()                                             2.61% (   0:00:00.02)
+    Other Shape::Intersect()                                         2.43% (   0:00:00.01)
+    Direct lighting                                                  2.26% (   0:00:00.01)
+    Accelerator::Intersect()                                         1.57% (   0:00:00.01)
+    Light::Pdf()                                                     1.04% (   0:00:00.00)
+    Sampler::GetSample[12]D()                                        1.04% (   0:00:00.00)
+    Other Shape::IntersectP()                                        0.70% (   0:00:00.00)
+    SamplerIntegrator::Li()                                          0.70% (   0:00:00.00)
+    Film::AddSample()                                                0.52% (   0:00:00.00)
+    Scene parsing and creation                                       0.35% (   0:00:00.00)
+    Camera::GenerateRay[Differential]()                              0.17% (   0:00:00.00)
+    Acceleration structure creation                                  0.17% (   0:00:00.00)
+

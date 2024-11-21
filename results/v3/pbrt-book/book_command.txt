@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/pbrt-book/book.pbrt,./work/202411160456/v3/pbrt-book,book_log.txt,book_time.txt

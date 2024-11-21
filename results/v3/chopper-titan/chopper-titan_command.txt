@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/chopper-titan/chopper-titan.pbrt,./work/202411160456/v3/chopper-titan,chopper-titan_log.txt,chopper-titan_time.txt

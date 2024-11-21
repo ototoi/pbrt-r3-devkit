@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/spheres-differentials-texfilt.pbrt,./work/202411160456/v3/simple,spheres-differentials-texfilt_log.txt,spheres-differentials-texfilt_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/dambreak/dambreak1.pbrt,./work/202411160456/v3/dambreak,dambreak1_log.txt,dambreak1_time.txt

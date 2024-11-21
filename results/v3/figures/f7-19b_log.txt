@@ -1,0 +1,74 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [                                           ]  (0.2s|?s)  
+Rendering: [+++++                                      ]  (0.5s|3.5s)  
+Rendering: [+++++++++++                                ]  (0.8s|2.2s)  
+Rendering: [+++++++++++                                ]  (1.0s|3.0s)  
+Rendering: [+++++++++++                                ]  (1.2s|3.8s)  
+Rendering: [+++++++++++                                ]  (1.5s|4.5s)  
+Rendering: [+++++++++++                                ]  (1.8s|5.2s)  
+Rendering: [+++++++++++                                ]  (2.0s|6.0s)  
+Rendering: [++++++++++++++++                           ]  (2.2s|3.8s)  
+Rendering: [++++++++++++++++++++++++                   ]  (2.5s|1.9s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (3.0s|1.4s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (3.5s|1.2s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (4.0s|1.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (4.5s)       
+Statistics:
+  BVH
+    Leaf nodes                                                          1
+    Primitives per leaf node                             1 /            1 (1.00x)
+  Integrator
+    Camera rays traced                                              65536
+  Intersections
+    Regular ray intersection tests                               34968980
+    Shadow ray intersection tests                                17701104
+  Memory
+    BVH tree                                                         0.09 kB
+    Film pixels                                                    128.00 kB
+    Primitives                                                       0.07 kB
+    Texture MIP maps                                                 0.02 kB
+    TransformCache                                                 260.00 kB
+  Scene
+    Lights                                                              2
+    Materials created                                                   1
+    Shapes created                                                      1
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                                  1 /            4 (25.00%)
+  Texture
+    Trilinear lookups                                            70278852
+  Profile
+    Integrator::Render()                                            100.00% (   0:00:04.50)
+      Sampler::StartPixelSample()                                    0.75% (   0:00:00.03)
+      SamplerIntegrator::Li()                                       81.92% (   0:00:03.68)
+        Direct lighting                                             81.92% (   0:00:03.68)
+          Accelerator::Intersect()                                  19.23% (   0:00:00.86)
+            Other Shape::Intersect()                                18.28% (   0:00:00.82)
+          Accelerator::IntersectP()                                  9.95% (   0:00:00.44)
+            Other Shape::IntersectP()                                9.08% (   0:00:00.40)
+          BSDF::PDF()                                                3.20% (   0:00:00.14)
+          BSDF::Sample_f()                                          20.01% (   0:00:00.90)
+          BSDF::f()                                                  4.44% (   0:00:00.19)
+          Light::Pdf()                                               3.58% (   0:00:00.16)
+          Light::Sample_*()                                          8.79% (   0:00:00.39)
+            MIPMap::Lookup() (trilinear)                             2.97% (   0:00:00.13)
+          MIPMap::Lookup() (trilinear)                               2.51% (   0:00:00.11)
+  Profile (flattened)
+    BSDF::Sample_f()                                                20.01% (   0:00:00.90)
+    Other Shape::Intersect()                                        18.28% (   0:00:00.82)
+    Integrator::Render()                                            17.33% (   0:00:00.78)
+    Direct lighting                                                 10.21% (   0:00:00.45)
+    Other Shape::IntersectP()                                        9.08% (   0:00:00.40)
+    Light::Sample_*()                                                5.82% (   0:00:00.26)
+    MIPMap::Lookup() (trilinear)                                     5.48% (   0:00:00.24)
+    BSDF::f()                                                        4.44% (   0:00:00.19)
+    Light::Pdf()                                                     3.58% (   0:00:00.16)
+    BSDF::PDF()                                                      3.20% (   0:00:00.14)
+    Accelerator::Intersect()                                         0.95% (   0:00:00.04)
+    Accelerator::IntersectP()                                        0.87% (   0:00:00.03)
+    Sampler::StartPixelSample()                                      0.75% (   0:00:00.03)
+

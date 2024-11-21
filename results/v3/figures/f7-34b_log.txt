@@ -1,0 +1,84 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [                                           ]  (0.2s|?s)  
+Rendering: [                                           ]  (0.5s|?s)  
+Rendering: [                                           ]  (0.8s|?s)  
+Rendering: [                                           ]  (1.0s|?s)  
+Rendering: [                                           ]  (1.2s|?s)  
+Rendering: [                                           ]  (1.5s|?s)  
+Rendering: [+++                                        ]  (1.8s|26.2s)  
+Rendering: [+++                                        ]  (2.0s|30.0s)  
+Rendering: [+++++                                      ]  (2.2s|15.8s)  
+Rendering: [+++++                                      ]  (2.5s|17.5s)  
+Rendering: [+++++++++++                                ]  (3.0s|9.0s)  
+Rendering: [+++++++++++++++++++                        ]  (3.5s|4.5s)  
+Rendering: [++++++++++++++++++++++++                   ]  (4.0s|3.1s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (4.5s|1.5s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (5.0s|1.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (5.5s|0.8s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (6.0s|0.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (6.5s)       
+Statistics:
+  BVH
+    Leaf nodes                                                          1
+    Primitives per leaf node                             1 /            1 (1.00x)
+  Integrator
+    Camera rays traced                                              65536
+  Intersections
+    Regular ray intersection tests                               34937168
+    Shadow ray intersection tests                                17689642
+  Memory
+    BVH tree                                                         0.09 kB
+    Film pixels                                                    128.00 kB
+    Primitives                                                       0.07 kB
+    Texture MIP maps                                                 0.02 kB
+    TransformCache                                                 260.00 kB
+  Scene
+    Lights                                                              2
+    Materials created                                                   1
+    Shapes created                                                      1
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                                  1 /            4 (25.00%)
+  Texture
+    Trilinear lookups                                            70215327
+  Profile
+    Integrator::Render()                                            99.98% (   0:00:06.51)
+      Camera::GenerateRay[Differential]()                            0.02% (   0:00:00.00)
+      Sampler::GetSample[12]D()                                      0.02% (   0:00:00.00)
+      Sampler::StartPixelSample()                                   19.53% (   0:00:01.27)
+      SamplerIntegrator::Li()                                       73.03% (   0:00:04.75)
+        Direct lighting                                             73.03% (   0:00:04.75)
+          Accelerator::Intersect()                                  16.96% (   0:00:01.10)
+            Other Shape::Intersect()                                16.17% (   0:00:01.05)
+          Accelerator::IntersectP()                                  9.25% (   0:00:00.60)
+            Other Shape::IntersectP()                                8.73% (   0:00:00.56)
+          BSDF::PDF()                                                2.59% (   0:00:00.16)
+          BSDF::Sample_f()                                          18.56% (   0:00:01.20)
+          BSDF::f()                                                  3.61% (   0:00:00.23)
+          Light::Pdf()                                               2.63% (   0:00:00.17)
+          Light::Sample_*()                                          6.88% (   0:00:00.44)
+            MIPMap::Lookup() (trilinear)                             2.20% (   0:00:00.14)
+          MIPMap::Lookup() (trilinear)                               2.61% (   0:00:00.17)
+    Scene parsing and creation                                       0.02% (   0:00:00.00)
+  Profile (flattened)
+    Sampler::StartPixelSample()                                     19.53% (   0:00:01.27)
+    BSDF::Sample_f()                                                18.56% (   0:00:01.20)
+    Other Shape::Intersect()                                        16.17% (   0:00:01.05)
+    Direct lighting                                                  9.93% (   0:00:00.64)
+    Other Shape::IntersectP()                                        8.73% (   0:00:00.56)
+    Integrator::Render()                                             7.38% (   0:00:00.48)
+    MIPMap::Lookup() (trilinear)                                     4.81% (   0:00:00.31)
+    Light::Sample_*()                                                4.69% (   0:00:00.30)
+    BSDF::f()                                                        3.61% (   0:00:00.23)
+    Light::Pdf()                                                     2.63% (   0:00:00.17)
+    BSDF::PDF()                                                      2.59% (   0:00:00.16)
+    Accelerator::Intersect()                                         0.79% (   0:00:00.05)
+    Accelerator::IntersectP()                                        0.52% (   0:00:00.03)
+    Camera::GenerateRay[Differential]()                              0.02% (   0:00:00.00)
+    Sampler::GetSample[12]D()                                        0.02% (   0:00:00.00)
+    Scene parsing and creation                                       0.02% (   0:00:00.00)
+

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/sssdragon/dragon_50.pbrt,./work/202411160456/v3/sssdragon,dragon_50_log.txt,dragon_50_time.txt

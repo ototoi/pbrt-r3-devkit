@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/dragon/f9-3.pbrt,./work/202411160456/v3/dragon,f9-3_log.txt,f9-3_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/sanmiguel/f10-8.pbrt,./work/202411160456/v3/sanmiguel,f10-8_log.txt,f10-8_time.txt

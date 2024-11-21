@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/hair/sphere-hairblock.pbrt,./work/202411160456/v3/hair,sphere-hairblock_log.txt,sphere-hairblock_time.txt

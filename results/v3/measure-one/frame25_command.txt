@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/measure-one/frame25.pbrt,./work/202411160456/v3/measure-one,frame25_log.txt,frame25_time.txt

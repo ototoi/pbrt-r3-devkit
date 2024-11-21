@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/structuresynth/ballpile.pbrt,./work/202411160456/v3/structuresynth,ballpile_log.txt,ballpile_time.txt

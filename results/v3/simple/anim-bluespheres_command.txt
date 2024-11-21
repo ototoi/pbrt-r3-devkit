@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/anim-bluespheres.pbrt,./work/202411160456/v3/simple,anim-bluespheres_log.txt,anim-bluespheres_time.txt

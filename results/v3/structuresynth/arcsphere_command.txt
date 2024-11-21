@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/structuresynth/arcsphere.pbrt,./work/202411160456/v3/structuresynth,arcsphere_log.txt,arcsphere_time.txt

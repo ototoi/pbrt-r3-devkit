@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/landscape/f6-13.pbrt,./work/202411160456/v3/landscape,f6-13_log.txt,f6-13_time.txt

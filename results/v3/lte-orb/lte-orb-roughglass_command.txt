@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/lte-orb/lte-orb-roughglass.pbrt,./work/202411160456/v3/lte-orb,lte-orb-roughglass_log.txt,lte-orb-roughglass_time.txt

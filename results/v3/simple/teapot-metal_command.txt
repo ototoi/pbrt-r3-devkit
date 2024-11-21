@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/teapot-metal.pbrt,./work/202411160456/v3/simple,teapot-metal_log.txt,teapot-metal_time.txt

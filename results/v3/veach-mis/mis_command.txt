@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/veach-mis/mis.pbrt,./work/202411160456/v3/veach-mis,mis_log.txt,mis_time.txt

@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/sanmiguel/f6-17.pbrt,./work/202411160456/v3/sanmiguel,f6-17_log.txt,f6-17_time.txt

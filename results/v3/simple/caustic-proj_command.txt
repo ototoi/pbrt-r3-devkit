@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/simple/caustic-proj.pbrt,./work/202411160456/v3/simple,caustic-proj_log.txt,caustic-proj_time.txt

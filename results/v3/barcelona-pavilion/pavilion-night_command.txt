@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/barcelona-pavilion/pavilion-night.pbrt,./work/202411160456/v3/barcelona-pavilion,pavilion-night_log.txt,pavilion-night_time.txt

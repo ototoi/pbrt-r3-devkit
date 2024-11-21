@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/bathroom/bathroom.pbrt,./work/202411160456/v3/bathroom,bathroom_log.txt,bathroom_time.txt

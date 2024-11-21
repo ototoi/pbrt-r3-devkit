@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/measure-one/frame380.pbrt,./work/202411160456/v3/measure-one,frame380_log.txt,frame380_time.txt

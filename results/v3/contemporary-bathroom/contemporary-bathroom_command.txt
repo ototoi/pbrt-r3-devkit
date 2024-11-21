@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/contemporary-bathroom/contemporary-bathroom.pbrt,./work/202411160456/v3/contemporary-bathroom,contemporary-bathroom_log.txt,contemporary-bathroom_time.txt

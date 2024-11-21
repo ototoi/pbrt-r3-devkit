@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/veach-bidir/bidir.pbrt,./work/202411160456/v3/veach-bidir,bidir_log.txt,bidir_time.txt

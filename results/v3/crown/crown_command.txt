@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/crown/crown.pbrt,./work/202411160456/v3/crown,crown_log.txt,crown_time.txt

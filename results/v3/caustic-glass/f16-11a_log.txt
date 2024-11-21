@@ -1,0 +1,160 @@
+pbrt version 3 (built Nov 16 2024 at 04:54:36) [Detected 24 cores]
+Copyright (c)1998-2018 Matt Pharr, Greg Humphreys, and Wenzel Jakob.
+The source code to pbrt (but *not* the book contents) is covered by the BSD License.
+See the file LICENSE.txt for the conditions of the license.
+
+Rendering: [                                           ] 
+Rendering: [                                           ]  (0.2s|49.8s)  
+Rendering: [                                           ]  (0.5s|45.0s)  
+Rendering: [+                                          ]  (0.8s|43.4s)  
+Rendering: [+                                          ]  (1.0s|40.7s)  
+Rendering: [+                                          ]  (1.3s|37.9s)  
+Rendering: [++                                         ]  (1.5s|37.0s)  
+Rendering: [++                                         ]  (1.8s|36.4s)  
+Rendering: [++                                         ]  (2.0s|35.1s)  
+Rendering: [+++                                        ]  (2.3s|34.1s)  
+Rendering: [+++                                        ]  (2.5s|33.8s)  
+Rendering: [++++                                       ]  (3.0s|32.3s)  
+Rendering: [++++                                       ]  (3.5s|31.2s)  
+Rendering: [+++++                                      ]  (4.0s|30.2s)  
+Rendering: [++++++                                     ]  (4.5s|29.4s)  
+Rendering: [++++++                                     ]  (5.0s|28.4s)  
+Rendering: [+++++++                                    ]  (5.5s|27.7s)  
+Rendering: [++++++++                                   ]  (6.0s|27.0s)  
+Rendering: [+++++++++                                  ]  (6.5s|26.2s)  
+Rendering: [+++++++++                                  ]  (7.0s|25.6s)  
+Rendering: [++++++++++                                 ]  (7.5s|24.9s)  
+Rendering: [+++++++++++                                ]  (8.0s|24.2s)  
+Rendering: [+++++++++++                                ]  (8.5s|23.5s)  
+Rendering: [++++++++++++                               ]  (9.0s|22.8s)  
+Rendering: [+++++++++++++                              ]  (9.5s|22.2s)  
+Rendering: [++++++++++++++                             ]  (10.0s|21.6s)  
+Rendering: [++++++++++++++                             ]  (10.5s|21.0s)  
+Rendering: [+++++++++++++++                            ]  (11.0s|20.4s)  
+Rendering: [++++++++++++++++                           ]  (11.5s|19.8s)  
+Rendering: [+++++++++++++++++                          ]  (12.0s|19.1s)  
+Rendering: [+++++++++++++++++                          ]  (12.5s|18.5s)  
+Rendering: [++++++++++++++++++                         ]  (13.0s|18.0s)  
+Rendering: [+++++++++++++++++++                        ]  (13.5s|17.4s)  
+Rendering: [++++++++++++++++++++                       ]  (14.0s|16.9s)  
+Rendering: [++++++++++++++++++++                       ]  (14.5s|16.2s)  
+Rendering: [+++++++++++++++++++++                      ]  (15.0s|15.6s)  
+Rendering: [++++++++++++++++++++++                     ]  (15.5s|15.1s)  
+Rendering: [+++++++++++++++++++++++                    ]  (16.0s|14.6s)  
+Rendering: [+++++++++++++++++++++++                    ]  (16.5s|14.0s)  
+Rendering: [++++++++++++++++++++++++                   ]  (17.0s|13.4s)  
+Rendering: [+++++++++++++++++++++++++                  ]  (17.5s|12.9s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (18.0s|12.3s)  
+Rendering: [++++++++++++++++++++++++++                 ]  (18.5s|11.7s)  
+Rendering: [+++++++++++++++++++++++++++                ]  (19.0s|11.2s)  
+Rendering: [++++++++++++++++++++++++++++               ]  (19.5s|10.7s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (20.0s|10.1s)  
+Rendering: [+++++++++++++++++++++++++++++              ]  (20.5s|9.6s)  
+Rendering: [++++++++++++++++++++++++++++++             ]  (21.0s|9.0s)  
+Rendering: [+++++++++++++++++++++++++++++++            ]  (21.5s|8.5s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (22.0s|7.9s)  
+Rendering: [++++++++++++++++++++++++++++++++           ]  (22.5s|7.4s)  
+Rendering: [+++++++++++++++++++++++++++++++++          ]  (23.0s|6.9s)  
+Rendering: [++++++++++++++++++++++++++++++++++         ]  (23.5s|6.3s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (24.0s|5.8s)  
+Rendering: [+++++++++++++++++++++++++++++++++++        ]  (24.5s|5.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++       ]  (25.0s|4.7s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++      ]  (25.5s|4.2s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (26.0s|3.7s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++     ]  (26.5s|3.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++    ]  (27.0s|2.6s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++   ]  (27.5s|2.1s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++  ]  (28.0s|1.5s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (28.5s|1.0s)  
+Rendering: [++++++++++++++++++++++++++++++++++++++++++ ]  (29.0s|0.5s)  
+Rendering: [+++++++++++++++++++++++++++++++++++++++++++]  (29.5s)       
+Statistics:
+  BVH
+    Interior nodes                                                  85932
+    Leaf nodes                                                      85933
+    Primitives per leaf node                         88066 /        85933 (1.02x)
+  Intersections
+    Regular ray intersection tests                              339917649
+    Shadow ray intersection tests                               120232182
+    Ray-triangle intersection tests              328027860 /    848062533 (38.68%)
+  Memory
+    BVH tree                                                         6.59 MiB
+    Film pixels                                                     10.24 MiB
+    Primitives                                                       6.05 MiB
+    SPPM Pixels                                                     30.71 MiB
+    Texture MIP maps                                                 0.02 kB
+    TransformCache                                                 260.00 kB
+    Triangle meshes                                                  7.39 MiB
+  Scene
+    Lights                                                              2
+    Materials created                                                   2
+    Shapes created                                                  88066
+    Probes per TransformCache lookup                                1.000 avg [range 1 - 1]
+    TransformCache hits                                  4 /            6 (66.67%)
+    Triangles per triangle mesh                      88066 /            2 (44033.00x)
+  Stochastic Progressive Photon Mapping
+    Photon paths followed                                        50000000
+    Grid cells per visible point                                    3.282 avg [range 1 - 9]
+    Visible points checked per photon intersection  1267272812 /    219419032 (5.78x)
+  Texture
+    Trilinear lookups                                           172355626
+  Profile
+    Integrator::Render()                                            99.56% (   0:00:29.54)
+      SPPM camera pass                                              62.55% (   0:00:18.56)
+        Accelerator::Intersect()                                    12.17% (   0:00:03.61)
+          Triangle::Intersect()                                      6.97% (   0:00:02.06)
+        BSDF::Sample_f()                                             0.28% (   0:00:00.08)
+        Camera::GenerateRay[Differential]()                          2.14% (   0:00:00.63)
+        Direct lighting                                             34.54% (   0:00:10.25)
+          Accelerator::Intersect()                                   4.85% (   0:00:01.43)
+            Triangle::Intersect()                                    1.24% (   0:00:00.36)
+          Accelerator::IntersectP()                                  5.95% (   0:00:01.76)
+            Triangle::IntersectP()                                   1.08% (   0:00:00.32)
+          BSDF::PDF()                                                1.93% (   0:00:00.57)
+          BSDF::Sample_f()                                           4.70% (   0:00:01.39)
+          BSDF::f()                                                  3.14% (   0:00:00.93)
+          Light::Pdf()                                               1.15% (   0:00:00.34)
+          Light::Sample_*()                                          2.85% (   0:00:00.84)
+            MIPMap::Lookup() (trilinear)                             0.89% (   0:00:00.26)
+          MIPMap::Lookup() (trilinear)                               0.47% (   0:00:00.13)
+          Sampler::GetSample[12]D()                                  5.17% (   0:00:01.53)
+        MIPMap::Lookup() (trilinear)                                 0.05% (   0:00:00.01)
+        Material::ComputeScatteringFunctions()                       2.99% (   0:00:00.88)
+        Sampler::GetSample[12]D()                                    4.62% (   0:00:01.37)
+        Sampler::StartPixelSample()                                  0.98% (   0:00:00.29)
+      SPPM grid construction                                         3.23% (   0:00:00.96)
+      SPPM photon pass                                              31.68% (   0:00:09.40)
+        Accelerator::Intersect()                                     9.88% (   0:00:02.93)
+          Triangle::Intersect()                                      2.98% (   0:00:00.88)
+        BSDF::Sample_f()                                             1.78% (   0:00:00.52)
+        BSDF::f()                                                    7.48% (   0:00:02.21)
+        Light::Sample_*()                                            1.21% (   0:00:00.35)
+          MIPMap::Lookup() (trilinear)                               0.17% (   0:00:00.05)
+        Material::ComputeScatteringFunctions()                       0.45% (   0:00:00.13)
+      SPPM photon statistics update                                  2.07% (   0:00:00.61)
+    Scene parsing and creation                                       0.44% (   0:00:00.12)
+      Acceleration structure creation                                0.02% (   0:00:00.00)
+  Profile (flattened)
+    Accelerator::Intersect()                                        15.71% (   0:00:04.66)
+    Triangle::Intersect()                                           11.19% (   0:00:03.32)
+    SPPM photon pass                                                10.88% (   0:00:03.22)
+    BSDF::f()                                                       10.62% (   0:00:03.15)
+    Sampler::GetSample[12]D()                                        9.79% (   0:00:02.90)
+    BSDF::Sample_f()                                                 6.77% (   0:00:02.00)
+    Accelerator::IntersectP()                                        4.86% (   0:00:01.44)
+    SPPM camera pass                                                 4.77% (   0:00:01.41)
+    Direct lighting                                                  4.34% (   0:00:01.28)
+    Material::ComputeScatteringFunctions()                           3.44% (   0:00:01.02)
+    SPPM grid construction                                           3.23% (   0:00:00.96)
+    Light::Sample_*()                                                2.99% (   0:00:00.88)
+    Camera::GenerateRay[Differential]()                              2.14% (   0:00:00.63)
+    SPPM photon statistics update                                    2.07% (   0:00:00.61)
+    BSDF::PDF()                                                      1.93% (   0:00:00.57)
+    MIPMap::Lookup() (trilinear)                                     1.58% (   0:00:00.46)
+    Light::Pdf()                                                     1.15% (   0:00:00.34)
+    Triangle::IntersectP()                                           1.08% (   0:00:00.32)
+    Sampler::StartPixelSample()                                      0.98% (   0:00:00.29)
+    Scene parsing and creation                                       0.42% (   0:00:00.12)
+    Integrator::Render()                                             0.04% (   0:00:00.01)
+    Acceleration structure creation                                  0.02% (   0:00:00.00)
+

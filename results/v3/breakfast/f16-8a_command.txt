@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/breakfast/f16-8a.pbrt,./work/202411160456/v3/breakfast,f16-8a_log.txt,f16-8a_time.txt

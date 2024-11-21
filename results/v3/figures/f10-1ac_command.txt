@@ -1,0 +1,1 @@
+./pbrt-v3/build/pbrt,./pbrt-v3-scenes/figures/f10-1ac.pbrt,./work/202411160456/v3/figures,f10-1ac_log.txt,f10-1ac_time.txt
