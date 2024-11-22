@@ -15,15 +15,15 @@ Statistics:
  BVH
    Interior nodes 1952367
    Leaf nodes 1952370
- Memory
-   Texture MIP maps 1.5 GiB
  Texture
    Trilinear lookups 134217728
+ Memory
+   Texture MIP maps 1.5 GiB
  Scene
-   Shapes 5298486
-   AreaLights 1986
    Object instances used 43
    Object instances created 2
-   Lights 1987
    Materials 164
+   Lights 1987
+   Shapes 5298486
+   AreaLights 1986
 

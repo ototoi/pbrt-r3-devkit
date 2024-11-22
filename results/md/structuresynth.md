@@ -2,16 +2,16 @@
 ## metal
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![metal.png](../v3/structuresynth/metal.png)|![metal.png](../r3/structuresynth/metal.png)|
-## arcsphere
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![arcsphere.png](../v3/structuresynth/arcsphere.png)|![arcsphere.png](../r3/structuresynth/arcsphere.png)|
+|![metal.jpg](../v3/structuresynth/metal.jpg)|![metal.jpg](../r3/structuresynth/metal.jpg)|
 ## microcity
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![microcity.png](../v3/structuresynth/microcity.png)|![microcity.png](../r3/structuresynth/microcity.png)|
+|![microcity.jpg](../v3/structuresynth/microcity.jpg)|![microcity.jpg](../r3/structuresynth/microcity.jpg)|
 ## ballpile
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![ballpile.png](../v3/structuresynth/ballpile.png)|![ballpile.png](../r3/structuresynth/ballpile.png)|
+|![ballpile.jpg](../v3/structuresynth/ballpile.jpg)|![ballpile.jpg](../r3/structuresynth/ballpile.jpg)|
+## arcsphere
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![arcsphere.jpg](../v3/structuresynth/arcsphere.jpg)|![arcsphere.jpg](../r3/structuresynth/arcsphere.jpg)|

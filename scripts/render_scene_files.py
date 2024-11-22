@@ -69,7 +69,6 @@ def get_lines(cmd, dir):
         if not line and proc.poll() is not None:
             break
 
-
 def execute_commands(task_dir, scenes):
     for scene in scenes:
         parent = os.path.basename(os.path.dirname(scene))
@@ -81,9 +80,7 @@ def execute_commands(task_dir, scenes):
             cmd = os.path.abspath(cmd)
             input = os.path.abspath(input)
             working_dir = os.path.abspath(working_dir)
-            image_file = os.path.splitext(input)[0] + ".exr"
-            
-
+            output = os.path.join(working_dir, os.path.splitext(os.path.basename(input))[0] + ".exr")
             # print(cmd)
             # print(input)
             # print(working_dir)
@@ -92,11 +89,13 @@ def execute_commands(task_dir, scenes):
                 "time",
                 cmd,
                 input,
+                "--outfile",
+                output,
             ]
             print(f"cd {working_dir}")
             print(" ".join(command))
             print("")
-            if os.path.exists(image_file):
+            if os.path.exists(output):
                 continue
 
             #ret = subprocess.run(

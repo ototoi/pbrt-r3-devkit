@@ -2,4 +2,4 @@
 ## yeahright
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![yeahright.png](../v3/yeahright/yeahright.png)|![yeahright.png](../r3/yeahright/yeahright.png)|
+|![yeahright.jpg](../v3/yeahright/yeahright.jpg)|![yeahright.jpg](../r3/yeahright/yeahright.jpg)|

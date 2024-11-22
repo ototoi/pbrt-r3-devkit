@@ -2,4 +2,4 @@
 ## crown
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![crown.png](../v3/crown/crown.png)|![crown.png](../r3/crown/crown.png)|
+|![crown.jpg](../v3/crown/crown.jpg)|![crown.jpg](../r3/crown/crown.jpg)|

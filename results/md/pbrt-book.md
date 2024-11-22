@@ -2,4 +2,4 @@
 ## book
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![book.png](../v3/pbrt-book/book.png)|![book.png](../r3/pbrt-book/book.png)|
+|![book.jpg](../v3/pbrt-book/book.jpg)|![book.jpg](../r3/pbrt-book/book.jpg)|

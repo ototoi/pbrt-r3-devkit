@@ -38,7 +38,7 @@ def make_md_files(output_dir, dirs):
 def process(args):
     input_dir = args.input_dir
     output_dir = args.output_dir
-    png_files = glob.glob(os.path.join(input_dir, "**", "*.png"))
+    png_files = glob.glob(os.path.join(input_dir, "**", "*.jpg"))
     dirs = {}
     for path in png_files:
         dirname = os.path.split(os.path.dirname(path))[1]
@@ -48,9 +48,9 @@ def process(args):
     return make_md_files(output_dir, dirs)
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert EXR files to PNG files")
-    parser.add_argument("-i", "--input_dir", default="./results/v3", help="Input directory containing PNG files")
-    parser.add_argument("-o", "--output_dir", default="./results/md", help="output directory containing PNG files")
+    parser = argparse.ArgumentParser(description="Create markdown files for comparing pbrt-v3 and pbrt-r3")
+    parser.add_argument("-i", "--input_dir", default="./results/v3", help="Input directory containing Jpeg files")
+    parser.add_argument("-o", "--output_dir", default="./results/md", help="Output directory for markdown files")
     args = parser.parse_args()
     return process(args)
 

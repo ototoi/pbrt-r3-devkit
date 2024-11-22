@@ -2,8 +2,8 @@
 ## ganesha
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![ganesha.png](../v3/ganesha/ganesha.png)|![ganesha.png](../r3/ganesha/ganesha.png)|
-## pbrt
+|![ganesha.jpg](../v3/ganesha/ganesha.jpg)|![ganesha.jpg](../r3/ganesha/ganesha.jpg)|
+## f3-11
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pbrt.png](../v3/ganesha/pbrt.png)|![pbrt.png](../r3/ganesha/pbrt.png)|
+|![f3-11.jpg](../v3/ganesha/f3-11.jpg)|![f3-11.jpg](../r3/ganesha/f3-11.jpg)|

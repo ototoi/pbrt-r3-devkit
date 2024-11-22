@@ -1,21 +1,21 @@
 # cloud
-## f15-4a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f15-4a.png](../v3/cloud/f15-4a.png)|![f15-4a.png](../r3/cloud/f15-4a.png)|
-## f15-4b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f15-4b.png](../v3/cloud/f15-4b.png)|![f15-4b.png](../r3/cloud/f15-4b.png)|
 ## f15-4c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-4c.png](../v3/cloud/f15-4c.png)|![f15-4c.png](../r3/cloud/f15-4c.png)|
-## cloud
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![cloud.png](../v3/cloud/cloud.png)|![cloud.png](../r3/cloud/cloud.png)|
+|![f15-4c.jpg](../v3/cloud/f15-4c.jpg)|![f15-4c.jpg](../r3/cloud/f15-4c.jpg)|
 ## smoke
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![smoke.png](../v3/cloud/smoke.png)|![smoke.png](../r3/cloud/smoke.png)|
+|![smoke.jpg](../v3/cloud/smoke.jpg)|![smoke.jpg](../r3/cloud/smoke.jpg)|
+## f15-4a
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f15-4a.jpg](../v3/cloud/f15-4a.jpg)|![f15-4a.jpg](../r3/cloud/f15-4a.jpg)|
+## f15-4b
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f15-4b.jpg](../v3/cloud/f15-4b.jpg)|![f15-4b.jpg](../r3/cloud/f15-4b.jpg)|
+## cloud
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![cloud.jpg](../v3/cloud/cloud.jpg)|![cloud.jpg](../r3/cloud/cloud.jpg)|
