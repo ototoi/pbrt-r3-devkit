@@ -6,650 +6,650 @@ Dev kit for pbrt-r3
 ### pavilion-night
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pavilion-night.png](./results/v3/barcelona-pavilion/pavilion-night.png)|![pavilion-night.png](./results/r3/barcelona-pavilion/pavilion-night.png)|
+|![pavilion-night.jpg](./results/v3/barcelona-pavilion/pavilion-night.jpg)|![pavilion-night.jpg](./results/r3/barcelona-pavilion/pavilion-night.jpg)|
 ### pavilion-day
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pavilion-day.png](./results/v3/barcelona-pavilion/pavilion-day.png)|![pavilion-day.png](./results/r3/barcelona-pavilion/pavilion-day.png)|
+|![pavilion-day.jpg](./results/v3/barcelona-pavilion/pavilion-day.jpg)|![pavilion-day.jpg](./results/r3/barcelona-pavilion/pavilion-day.jpg)|
 ## bathroom
 ### bathroom
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![bathroom.png](./results/v3/bathroom/bathroom.png)|![bathroom.png](./results/r3/bathroom/bathroom.png)|
+|![bathroom.jpg](./results/v3/bathroom/bathroom.jpg)|![bathroom.jpg](./results/r3/bathroom/bathroom.jpg)|
 ## bmw-m6
 ### bmw-m6
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![bmw-m6.png](./results/v3/bmw-m6/bmw-m6.png)|![bmw-m6.png](./results/r3/bmw-m6/bmw-m6.png)|
+|![bmw-m6.jpg](./results/v3/bmw-m6/bmw-m6.jpg)|![bmw-m6.jpg](./results/r3/bmw-m6/bmw-m6.jpg)|
 ## breakfast
 ### breakfast-lamps
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![breakfast-lamps.png](./results/v3/breakfast/breakfast-lamps.png)|![breakfast-lamps.png](./results/r3/breakfast/breakfast-lamps.png)|
+|![breakfast-lamps.jpg](./results/v3/breakfast/breakfast-lamps.jpg)|![breakfast-lamps.jpg](./results/r3/breakfast/breakfast-lamps.jpg)|
 ### pbrt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pbrt.png](./results/v3/breakfast/pbrt.png)|![pbrt.png](./results/r3/breakfast/pbrt.png)|
+|![pbrt.jpg](./results/v3/breakfast/pbrt.jpg)|![pbrt.jpg](./results/r3/breakfast/pbrt.jpg)|
 ### breakfast
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![breakfast.png](./results/v3/breakfast/breakfast.png)|![breakfast.png](./results/r3/breakfast/breakfast.png)|
+|![breakfast.jpg](./results/v3/breakfast/breakfast.jpg)|![breakfast.jpg](./results/r3/breakfast/breakfast.jpg)|
 ## buddha-fractal
 ### buddha-fractal
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![buddha-fractal.png](./results/v3/buddha-fractal/buddha-fractal.png)|![buddha-fractal.png](./results/r3/buddha-fractal/buddha-fractal.png)|
+|![buddha-fractal.jpg](./results/v3/buddha-fractal/buddha-fractal.jpg)|![buddha-fractal.jpg](./results/r3/buddha-fractal/buddha-fractal.jpg)|
 ## bunny-fur
 ### f3-15
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f3-15.png](./results/v3/bunny-fur/f3-15.png)|![f3-15.png](./results/r3/bunny-fur/f3-15.png)|
+|![f3-15.jpg](./results/v3/bunny-fur/f3-15.jpg)|![f3-15.jpg](./results/r3/bunny-fur/f3-15.jpg)|
 ## caustic-glass
 ### f16-11a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-11a.png](./results/v3/caustic-glass/f16-11a.png)|![f16-11a.png](./results/r3/caustic-glass/f16-11a.png)|
+|![f16-11a.jpg](./results/v3/caustic-glass/f16-11a.jpg)|![f16-11a.jpg](./results/r3/caustic-glass/f16-11a.jpg)|
 ### f16-11b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-11b.png](./results/v3/caustic-glass/f16-11b.png)|![f16-11b.png](./results/r3/caustic-glass/f16-11b.png)|
+|![f16-11b.jpg](./results/v3/caustic-glass/f16-11b.jpg)|![f16-11b.jpg](./results/r3/caustic-glass/f16-11b.jpg)|
 ### f16-9a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-9a.png](./results/v3/caustic-glass/f16-9a.png)|![f16-9a.png](./results/r3/caustic-glass/f16-9a.png)|
+|![f16-9a.jpg](./results/v3/caustic-glass/f16-9a.jpg)|![f16-9a.jpg](./results/r3/caustic-glass/f16-9a.jpg)|
 ### f16-9b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-9b.png](./results/v3/caustic-glass/f16-9b.png)|![f16-9b.png](./results/r3/caustic-glass/f16-9b.png)|
+|![f16-9b.jpg](./results/v3/caustic-glass/f16-9b.jpg)|![f16-9b.jpg](./results/r3/caustic-glass/f16-9b.jpg)|
 ### f16-9c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-9c.png](./results/v3/caustic-glass/f16-9c.png)|![f16-9c.png](./results/r3/caustic-glass/f16-9c.png)|
+|![f16-9c.jpg](./results/v3/caustic-glass/f16-9c.jpg)|![f16-9c.jpg](./results/r3/caustic-glass/f16-9c.jpg)|
 ### glass
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![glass.png](./results/v3/caustic-glass/glass.png)|![glass.png](./results/r3/caustic-glass/glass.png)|
+|![glass.jpg](./results/v3/caustic-glass/glass.jpg)|![glass.jpg](./results/r3/caustic-glass/glass.jpg)|
 ## chopper-titan
 ### chopper-titan
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![chopper-titan.png](./results/v3/chopper-titan/chopper-titan.png)|![chopper-titan.png](./results/r3/chopper-titan/chopper-titan.png)|
+|![chopper-titan.jpg](./results/v3/chopper-titan/chopper-titan.jpg)|![chopper-titan.jpg](./results/r3/chopper-titan/chopper-titan.jpg)|
 ## cloud
 ### f15-4a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-4a.png](./results/v3/cloud/f15-4a.png)|![f15-4a.png](./results/r3/cloud/f15-4a.png)|
+|![f15-4a.jpg](./results/v3/cloud/f15-4a.jpg)|![f15-4a.jpg](./results/r3/cloud/f15-4a.jpg)|
 ### f15-4b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-4b.png](./results/v3/cloud/f15-4b.png)|![f15-4b.png](./results/r3/cloud/f15-4b.png)|
+|![f15-4b.jpg](./results/v3/cloud/f15-4b.jpg)|![f15-4b.jpg](./results/r3/cloud/f15-4b.jpg)|
 ### f15-4c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-4c.png](./results/v3/cloud/f15-4c.png)|![f15-4c.png](./results/r3/cloud/f15-4c.png)|
+|![f15-4c.jpg](./results/v3/cloud/f15-4c.jpg)|![f15-4c.jpg](./results/r3/cloud/f15-4c.jpg)|
 ### cloud
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![cloud.png](./results/v3/cloud/cloud.png)|![cloud.png](./results/r3/cloud/cloud.png)|
+|![cloud.jpg](./results/v3/cloud/cloud.jpg)|![cloud.jpg](./results/r3/cloud/cloud.jpg)|
 ### smoke
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![smoke.png](./results/v3/cloud/smoke.png)|![smoke.png](./results/r3/cloud/smoke.png)|
+|![smoke.jpg](./results/v3/cloud/smoke.jpg)|![smoke.jpg](./results/r3/cloud/smoke.jpg)|
 ## coffee-splash
 ### f15-5
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-5.png](./results/v3/coffee-splash/f15-5.png)|![f15-5.png](./results/r3/coffee-splash/f15-5.png)|
+|![f15-5.jpg](./results/v3/coffee-splash/f15-5.jpg)|![f15-5.jpg](./results/r3/coffee-splash/f15-5.jpg)|
 ### splash
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![splash.png](./results/v3/coffee-splash/splash.png)|![splash.png](./results/r3/coffee-splash/splash.png)|
+|![splash.jpg](./results/v3/coffee-splash/splash.jpg)|![splash.jpg](./results/r3/coffee-splash/splash.jpg)|
 ## contemporary-bathroom
 ### contemporary-bathroom
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![contemporary-bathroom.png](./results/v3/contemporary-bathroom/contemporary-bathroom.png)|![contemporary-bathroom.png](./results/r3/contemporary-bathroom/contemporary-bathroom.png)|
+|![contemporary-bathroom.jpg](./results/v3/contemporary-bathroom/contemporary-bathroom.jpg)|![contemporary-bathroom.jpg](./results/r3/contemporary-bathroom/contemporary-bathroom.jpg)|
 ## crown
 ### crown
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![crown.png](./results/v3/crown/crown.png)|![crown.png](./results/r3/crown/crown.png)|
+|![crown.jpg](./results/v3/crown/crown.jpg)|![crown.jpg](./results/r3/crown/crown.jpg)|
 ## dambreak
 ### dambreak1
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dambreak1.png](./results/v3/dambreak/dambreak1.png)|![dambreak1.png](./results/r3/dambreak/dambreak1.png)|
+|![dambreak1.jpg](./results/v3/dambreak/dambreak1.jpg)|![dambreak1.jpg](./results/r3/dambreak/dambreak1.jpg)|
 ### dambreak0
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dambreak0.png](./results/v3/dambreak/dambreak0.png)|![dambreak0.png](./results/r3/dambreak/dambreak0.png)|
+|![dambreak0.jpg](./results/v3/dambreak/dambreak0.jpg)|![dambreak0.jpg](./results/r3/dambreak/dambreak0.jpg)|
 ## dragon
 ### f14-5
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f14-5.png](./results/v3/dragon/f14-5.png)|![f14-5.png](./results/r3/dragon/f14-5.png)|
+|![f14-5.jpg](./results/v3/dragon/f14-5.jpg)|![f14-5.jpg](./results/r3/dragon/f14-5.jpg)|
 ### f9-3
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f9-3.png](./results/v3/dragon/f9-3.png)|![f9-3.png](./results/r3/dragon/f9-3.png)|
+|![f9-3.jpg](./results/v3/dragon/f9-3.jpg)|![f9-3.jpg](./results/r3/dragon/f9-3.jpg)|
 ### f14-3
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f14-3.png](./results/v3/dragon/f14-3.png)|![f14-3.png](./results/r3/dragon/f14-3.png)|
+|![f14-3.jpg](./results/v3/dragon/f14-3.jpg)|![f14-3.jpg](./results/r3/dragon/f14-3.jpg)|
 ### f9-4
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f9-4.png](./results/v3/dragon/f9-4.png)|![f9-4.png](./results/r3/dragon/f9-4.png)|
+|![f9-4.jpg](./results/v3/dragon/f9-4.jpg)|![f9-4.jpg](./results/r3/dragon/f9-4.jpg)|
 ### f8-14a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-14a.png](./results/v3/dragon/f8-14a.png)|![f8-14a.png](./results/r3/dragon/f8-14a.png)|
+|![f8-14a.jpg](./results/v3/dragon/f8-14a.jpg)|![f8-14a.jpg](./results/r3/dragon/f8-14a.jpg)|
 ### f8-10
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-10.png](./results/v3/dragon/f8-10.png)|![f8-10.png](./results/r3/dragon/f8-10.png)|
+|![f8-10.jpg](./results/v3/dragon/f8-10.jpg)|![f8-10.jpg](./results/r3/dragon/f8-10.jpg)|
 ### f8-14b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-14b.png](./results/v3/dragon/f8-14b.png)|![f8-14b.png](./results/r3/dragon/f8-14b.png)|
+|![f8-14b.jpg](./results/v3/dragon/f8-14b.jpg)|![f8-14b.jpg](./results/r3/dragon/f8-14b.jpg)|
 ### f8-21a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-21a.png](./results/v3/dragon/f8-21a.png)|![f8-21a.png](./results/r3/dragon/f8-21a.png)|
+|![f8-21a.jpg](./results/v3/dragon/f8-21a.jpg)|![f8-21a.jpg](./results/r3/dragon/f8-21a.jpg)|
 ### f8-21b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-21b.png](./results/v3/dragon/f8-21b.png)|![f8-21b.png](./results/r3/dragon/f8-21b.png)|
+|![f8-21b.jpg](./results/v3/dragon/f8-21b.jpg)|![f8-21b.jpg](./results/r3/dragon/f8-21b.jpg)|
 ### f15-13
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f15-13.png](./results/v3/dragon/f15-13.png)|![f15-13.png](./results/r3/dragon/f15-13.png)|
+|![f15-13.jpg](./results/v3/dragon/f15-13.jpg)|![f15-13.jpg](./results/r3/dragon/f15-13.jpg)|
 ### f8-24
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-24.png](./results/v3/dragon/f8-24.png)|![f8-24.png](./results/r3/dragon/f8-24.png)|
+|![f8-24.jpg](./results/v3/dragon/f8-24.jpg)|![f8-24.jpg](./results/r3/dragon/f8-24.jpg)|
 ### f11-14
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f11-14.png](./results/v3/dragon/f11-14.png)|![f11-14.png](./results/r3/dragon/f11-14.png)|
+|![f11-14.jpg](./results/v3/dragon/f11-14.jpg)|![f11-14.jpg](./results/r3/dragon/f11-14.jpg)|
 ### f8-4a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-4a.png](./results/v3/dragon/f8-4a.png)|![f8-4a.png](./results/r3/dragon/f8-4a.png)|
+|![f8-4a.jpg](./results/v3/dragon/f8-4a.jpg)|![f8-4a.jpg](./results/r3/dragon/f8-4a.jpg)|
 ### f11-13
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f11-13.png](./results/v3/dragon/f11-13.png)|![f11-13.png](./results/r3/dragon/f11-13.png)|
+|![f11-13.jpg](./results/v3/dragon/f11-13.jpg)|![f11-13.jpg](./results/r3/dragon/f11-13.jpg)|
 ### f8-4b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-4b.png](./results/v3/dragon/f8-4b.png)|![f8-4b.png](./results/r3/dragon/f8-4b.png)|
+|![f8-4b.jpg](./results/v3/dragon/f8-4b.jpg)|![f8-4b.jpg](./results/r3/dragon/f8-4b.jpg)|
 ## ecosys
 ### ecosys
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![ecosys.png](./results/v3/ecosys/ecosys.png)|![ecosys.png](./results/r3/ecosys/ecosys.png)|
+|![ecosys.jpg](./results/v3/ecosys/ecosys.jpg)|![ecosys.jpg](./results/r3/ecosys/ecosys.jpg)|
 ## figures
 ### f7-30b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-30b.png](./results/v3/figures/f7-30b.png)|![f7-30b.png](./results/r3/figures/f7-30b.png)|
+|![f7-30b.jpg](./results/v3/figures/f7-30b.jpg)|![f7-30b.jpg](./results/r3/figures/f7-30b.jpg)|
 ### f10-1b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f10-1b.png](./results/v3/figures/f10-1b.png)|![f10-1b.png](./results/r3/figures/f10-1b.png)|
+|![f10-1b.jpg](./results/v3/figures/f10-1b.jpg)|![f10-1b.jpg](./results/r3/figures/f10-1b.jpg)|
 ### f7-30c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-30c.png](./results/v3/figures/f7-30c.png)|![f7-30c.png](./results/r3/figures/f7-30c.png)|
+|![f7-30c.jpg](./results/v3/figures/f7-30c.jpg)|![f7-30c.jpg](./results/r3/figures/f7-30c.jpg)|
 ### f7-30a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-30a.png](./results/v3/figures/f7-30a.png)|![f7-30a.png](./results/r3/figures/f7-30a.png)|
+|![f7-30a.jpg](./results/v3/figures/f7-30a.jpg)|![f7-30a.jpg](./results/r3/figures/f7-30a.jpg)|
 ### f10-1a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f10-1a.png](./results/v3/figures/f10-1a.png)|![f10-1a.png](./results/r3/figures/f10-1a.png)|
+|![f10-1a.jpg](./results/v3/figures/f10-1a.jpg)|![f10-1a.jpg](./results/r3/figures/f10-1a.jpg)|
 ### f3-18
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f3-18.png](./results/v3/figures/f3-18.png)|![f3-18.png](./results/r3/figures/f3-18.png)|
+|![f3-18.jpg](./results/v3/figures/f3-18.jpg)|![f3-18.jpg](./results/r3/figures/f3-18.jpg)|
 ### f8-22
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f8-22.png](./results/v3/figures/f8-22.png)|![f8-22.png](./results/r3/figures/f8-22.png)|
+|![f8-22.jpg](./results/v3/figures/f8-22.jpg)|![f8-22.jpg](./results/r3/figures/f8-22.jpg)|
 ### f7-34a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-34a.png](./results/v3/figures/f7-34a.png)|![f7-34a.png](./results/r3/figures/f7-34a.png)|
+|![f7-34a.jpg](./results/v3/figures/f7-34a.jpg)|![f7-34a.jpg](./results/r3/figures/f7-34a.jpg)|
 ### f7-34c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-34c.png](./results/v3/figures/f7-34c.png)|![f7-34c.png](./results/r3/figures/f7-34c.png)|
+|![f7-34c.jpg](./results/v3/figures/f7-34c.jpg)|![f7-34c.jpg](./results/r3/figures/f7-34c.jpg)|
 ### f11-15
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f11-15.png](./results/v3/figures/f11-15.png)|![f11-15.png](./results/r3/figures/f11-15.png)|
+|![f11-15.jpg](./results/v3/figures/f11-15.jpg)|![f11-15.jpg](./results/r3/figures/f11-15.jpg)|
 ### f7-34b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-34b.png](./results/v3/figures/f7-34b.png)|![f7-34b.png](./results/r3/figures/f7-34b.png)|
+|![f7-34b.jpg](./results/v3/figures/f7-34b.jpg)|![f7-34b.jpg](./results/r3/figures/f7-34b.jpg)|
 ### f7-19c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-19c.png](./results/v3/figures/f7-19c.png)|![f7-19c.png](./results/r3/figures/f7-19c.png)|
+|![f7-19c.jpg](./results/v3/figures/f7-19c.jpg)|![f7-19c.jpg](./results/r3/figures/f7-19c.jpg)|
 ### f7-19b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-19b.png](./results/v3/figures/f7-19b.png)|![f7-19b.png](./results/r3/figures/f7-19b.png)|
+|![f7-19b.jpg](./results/v3/figures/f7-19b.jpg)|![f7-19b.jpg](./results/r3/figures/f7-19b.jpg)|
 ### f7-19a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-19a.png](./results/v3/figures/f7-19a.png)|![f7-19a.png](./results/r3/figures/f7-19a.png)|
+|![f7-19a.jpg](./results/v3/figures/f7-19a.jpg)|![f7-19a.jpg](./results/r3/figures/f7-19a.jpg)|
 ## ganesha
 ### ganesha
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![ganesha.png](./results/v3/ganesha/ganesha.png)|![ganesha.png](./results/r3/ganesha/ganesha.png)|
+|![ganesha.jpg](./results/v3/ganesha/ganesha.jpg)|![ganesha.jpg](./results/r3/ganesha/ganesha.jpg)|
 ### pbrt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pbrt.png](./results/v3/ganesha/pbrt.png)|![pbrt.png](./results/r3/ganesha/pbrt.png)|
+|![pbrt.jpg](./results/v3/ganesha/pbrt.jpg)|![pbrt.jpg](./results/r3/ganesha/pbrt.jpg)|
 ## hair
 ### curly-hair
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![curly-hair.png](./results/v3/hair/curly-hair.png)|![curly-hair.png](./results/r3/hair/curly-hair.png)|
+|![curly-hair.jpg](./results/v3/hair/curly-hair.jpg)|![curly-hair.jpg](./results/r3/hair/curly-hair.jpg)|
 ### sphere-hairblock
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sphere-hairblock.png](./results/v3/hair/sphere-hairblock.png)|![sphere-hairblock.png](./results/r3/hair/sphere-hairblock.png)|
+|![sphere-hairblock.jpg](./results/v3/hair/sphere-hairblock.jpg)|![sphere-hairblock.jpg](./results/r3/hair/sphere-hairblock.jpg)|
 ### straight-hair
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![straight-hair.png](./results/v3/hair/straight-hair.png)|![straight-hair.png](./results/r3/hair/straight-hair.png)|
+|![straight-hair.jpg](./results/v3/hair/straight-hair.jpg)|![straight-hair.jpg](./results/r3/hair/straight-hair.jpg)|
 ## head
 ### head
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![head.png](./results/v3/head/head.png)|![head.png](./results/r3/head/head.png)|
+|![head.jpg](./results/v3/head/head.jpg)|![head.jpg](./results/r3/head/head.jpg)|
 ## killeroos
 ### killeroo-moving
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![killeroo-moving.png](./results/v3/killeroos/killeroo-moving.png)|![killeroo-moving.png](./results/r3/killeroos/killeroo-moving.png)|
+|![killeroo-moving.jpg](./results/v3/killeroos/killeroo-moving.jpg)|![killeroo-moving.jpg](./results/r3/killeroos/killeroo-moving.jpg)|
 ### killeroo-simple
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![killeroo-simple.png](./results/v3/killeroos/killeroo-simple.png)|![killeroo-simple.png](./results/r3/killeroos/killeroo-simple.png)|
+|![killeroo-simple.jpg](./results/v3/killeroos/killeroo-simple.jpg)|![killeroo-simple.jpg](./results/r3/killeroos/killeroo-simple.jpg)|
 ### killeroo-gold
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![killeroo-gold.png](./results/v3/killeroos/killeroo-gold.png)|![killeroo-gold.png](./results/r3/killeroos/killeroo-gold.png)|
+|![killeroo-gold.jpg](./results/v3/killeroos/killeroo-gold.jpg)|![killeroo-gold.jpg](./results/r3/killeroos/killeroo-gold.jpg)|
 ## landscape
 ### f6-13
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f6-13.png](./results/v3/landscape/f6-13.png)|![f6-13.png](./results/r3/landscape/f6-13.png)|
+|![f6-13.jpg](./results/v3/landscape/f6-13.jpg)|![f6-13.jpg](./results/r3/landscape/f6-13.jpg)|
 ### f6-14
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f6-14.png](./results/v3/landscape/f6-14.png)|![f6-14.png](./results/r3/landscape/f6-14.png)|
+|![f6-14.jpg](./results/v3/landscape/f6-14.jpg)|![f6-14.jpg](./results/r3/landscape/f6-14.jpg)|
 ### view-4
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![view-4.png](./results/v3/landscape/view-4.png)|![view-4.png](./results/r3/landscape/view-4.png)|
+|![view-4.jpg](./results/v3/landscape/view-4.jpg)|![view-4.jpg](./results/r3/landscape/view-4.jpg)|
 ### f4-1
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f4-1.png](./results/v3/landscape/f4-1.png)|![f4-1.png](./results/r3/landscape/f4-1.png)|
+|![f4-1.jpg](./results/v3/landscape/f4-1.jpg)|![f4-1.jpg](./results/r3/landscape/f4-1.jpg)|
 ### view-0
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![view-0.png](./results/v3/landscape/view-0.png)|![view-0.png](./results/r3/landscape/view-0.png)|
+|![view-0.jpg](./results/v3/landscape/view-0.jpg)|![view-0.jpg](./results/r3/landscape/view-0.jpg)|
 ### view-1
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![view-1.png](./results/v3/landscape/view-1.png)|![view-1.png](./results/r3/landscape/view-1.png)|
+|![view-1.jpg](./results/v3/landscape/view-1.jpg)|![view-1.jpg](./results/r3/landscape/view-1.jpg)|
 ### view-3
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![view-3.png](./results/v3/landscape/view-3.png)|![view-3.png](./results/r3/landscape/view-3.png)|
+|![view-3.jpg](./results/v3/landscape/view-3.jpg)|![view-3.jpg](./results/r3/landscape/view-3.jpg)|
 ### view-2
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![view-2.png](./results/v3/landscape/view-2.png)|![view-2.png](./results/r3/landscape/view-2.png)|
+|![view-2.jpg](./results/v3/landscape/view-2.jpg)|![view-2.jpg](./results/r3/landscape/view-2.jpg)|
 ## lte-orb
 ### lte-orb-silver
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![lte-orb-silver.png](./results/v3/lte-orb/lte-orb-silver.png)|![lte-orb-silver.png](./results/r3/lte-orb/lte-orb-silver.png)|
+|![lte-orb-silver.jpg](./results/v3/lte-orb/lte-orb-silver.jpg)|![lte-orb-silver.jpg](./results/r3/lte-orb/lte-orb-silver.jpg)|
 ### lte-orb-roughglass
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![lte-orb-roughglass.png](./results/v3/lte-orb/lte-orb-roughglass.png)|![lte-orb-roughglass.png](./results/r3/lte-orb/lte-orb-roughglass.png)|
+|![lte-orb-roughglass.jpg](./results/v3/lte-orb/lte-orb-roughglass.jpg)|![lte-orb-roughglass.jpg](./results/r3/lte-orb/lte-orb-roughglass.jpg)|
 ## measure-one
 ### frame52
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame52.png](./results/v3/measure-one/frame52.png)|![frame52.png](./results/r3/measure-one/frame52.png)|
+|![frame52.jpg](./results/v3/measure-one/frame52.jpg)|![frame52.jpg](./results/r3/measure-one/frame52.jpg)|
 ### frame85
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame85.png](./results/v3/measure-one/frame85.png)|![frame85.png](./results/r3/measure-one/frame85.png)|
+|![frame85.jpg](./results/v3/measure-one/frame85.jpg)|![frame85.jpg](./results/r3/measure-one/frame85.jpg)|
 ### frame180
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame180.png](./results/v3/measure-one/frame180.png)|![frame180.png](./results/r3/measure-one/frame180.png)|
+|![frame180.jpg](./results/v3/measure-one/frame180.jpg)|![frame180.jpg](./results/r3/measure-one/frame180.jpg)|
 ### frame380
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame380.png](./results/v3/measure-one/frame380.png)|![frame380.png](./results/r3/measure-one/frame380.png)|
+|![frame380.jpg](./results/v3/measure-one/frame380.jpg)|![frame380.jpg](./results/r3/measure-one/frame380.jpg)|
 ### frame25
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame25.png](./results/v3/measure-one/frame25.png)|![frame25.png](./results/r3/measure-one/frame25.png)|
+|![frame25.jpg](./results/v3/measure-one/frame25.jpg)|![frame25.jpg](./results/r3/measure-one/frame25.jpg)|
 ### frame120
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame120.png](./results/v3/measure-one/frame120.png)|![frame120.png](./results/r3/measure-one/frame120.png)|
+|![frame120.jpg](./results/v3/measure-one/frame120.jpg)|![frame120.jpg](./results/r3/measure-one/frame120.jpg)|
 ### frame35
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame35.png](./results/v3/measure-one/frame35.png)|![frame35.png](./results/r3/measure-one/frame35.png)|
+|![frame35.jpg](./results/v3/measure-one/frame35.jpg)|![frame35.jpg](./results/r3/measure-one/frame35.jpg)|
 ### frame300
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame300.png](./results/v3/measure-one/frame300.png)|![frame300.png](./results/r3/measure-one/frame300.png)|
+|![frame300.jpg](./results/v3/measure-one/frame300.jpg)|![frame300.jpg](./results/r3/measure-one/frame300.jpg)|
 ### frame210
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame210.png](./results/v3/measure-one/frame210.png)|![frame210.png](./results/r3/measure-one/frame210.png)|
+|![frame210.jpg](./results/v3/measure-one/frame210.jpg)|![frame210.jpg](./results/r3/measure-one/frame210.jpg)|
 ## pbrt-book
 ### book
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![book.png](./results/v3/pbrt-book/book.png)|![book.png](./results/r3/pbrt-book/book.png)|
+|![book.jpg](./results/v3/pbrt-book/book.jpg)|![book.jpg](./results/r3/pbrt-book/book.jpg)|
 ## sanmiguel
 ### f16-21a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-21a.png](./results/v3/sanmiguel/f16-21a.png)|![f16-21a.png](./results/r3/sanmiguel/f16-21a.png)|
+|![f16-21a.jpg](./results/v3/sanmiguel/f16-21a.jpg)|![f16-21a.jpg](./results/r3/sanmiguel/f16-21a.jpg)|
 ### f16-21b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-21b.png](./results/v3/sanmiguel/f16-21b.png)|![f16-21b.png](./results/r3/sanmiguel/f16-21b.png)|
+|![f16-21b.jpg](./results/v3/sanmiguel/f16-21b.jpg)|![f16-21b.jpg](./results/r3/sanmiguel/f16-21b.jpg)|
 ### sanmiguel
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel.png](./results/v3/sanmiguel/sanmiguel.png)|![sanmiguel.png](./results/r3/sanmiguel/sanmiguel.png)|
+|![sanmiguel.jpg](./results/v3/sanmiguel/sanmiguel.jpg)|![sanmiguel.jpg](./results/r3/sanmiguel/sanmiguel.jpg)|
 ### f16-21c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-21c.png](./results/v3/sanmiguel/f16-21c.png)|![f16-21c.png](./results/r3/sanmiguel/f16-21c.png)|
+|![f16-21c.jpg](./results/v3/sanmiguel/f16-21c.jpg)|![f16-21c.jpg](./results/r3/sanmiguel/f16-21c.jpg)|
 ### sanmiguel_cam1
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam1.png](./results/v3/sanmiguel/sanmiguel_cam1.png)|![sanmiguel_cam1.png](./results/r3/sanmiguel/sanmiguel_cam1.png)|
+|![sanmiguel_cam1.jpg](./results/v3/sanmiguel/sanmiguel_cam1.jpg)|![sanmiguel_cam1.jpg](./results/r3/sanmiguel/sanmiguel_cam1.jpg)|
 ### sanmiguel_cam18
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam18.png](./results/v3/sanmiguel/sanmiguel_cam18.png)|![sanmiguel_cam18.png](./results/r3/sanmiguel/sanmiguel_cam18.png)|
+|![sanmiguel_cam18.jpg](./results/v3/sanmiguel/sanmiguel_cam18.jpg)|![sanmiguel_cam18.jpg](./results/r3/sanmiguel/sanmiguel_cam18.jpg)|
 ### sanmiguel_cam25
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam25.png](./results/v3/sanmiguel/sanmiguel_cam25.png)|![sanmiguel_cam25.png](./results/r3/sanmiguel/sanmiguel_cam25.png)|
+|![sanmiguel_cam25.jpg](./results/v3/sanmiguel/sanmiguel_cam25.jpg)|![sanmiguel_cam25.jpg](./results/r3/sanmiguel/sanmiguel_cam25.jpg)|
 ### sanmiguel_cam3
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam3.png](./results/v3/sanmiguel/sanmiguel_cam3.png)|![sanmiguel_cam3.png](./results/r3/sanmiguel/sanmiguel_cam3.png)|
+|![sanmiguel_cam3.jpg](./results/v3/sanmiguel/sanmiguel_cam3.jpg)|![sanmiguel_cam3.jpg](./results/r3/sanmiguel/sanmiguel_cam3.jpg)|
 ### sanmiguel_cam20
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam20.png](./results/v3/sanmiguel/sanmiguel_cam20.png)|![sanmiguel_cam20.png](./results/r3/sanmiguel/sanmiguel_cam20.png)|
+|![sanmiguel_cam20.jpg](./results/v3/sanmiguel/sanmiguel_cam20.jpg)|![sanmiguel_cam20.jpg](./results/r3/sanmiguel/sanmiguel_cam20.jpg)|
 ### f6-17
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f6-17.png](./results/v3/sanmiguel/f6-17.png)|![f6-17.png](./results/r3/sanmiguel/f6-17.png)|
+|![f6-17.jpg](./results/v3/sanmiguel/f6-17.jpg)|![f6-17.jpg](./results/r3/sanmiguel/f6-17.jpg)|
 ### sanmiguel_cam4
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam4.png](./results/v3/sanmiguel/sanmiguel_cam4.png)|![sanmiguel_cam4.png](./results/r3/sanmiguel/sanmiguel_cam4.png)|
+|![sanmiguel_cam4.jpg](./results/v3/sanmiguel/sanmiguel_cam4.jpg)|![sanmiguel_cam4.jpg](./results/r3/sanmiguel/sanmiguel_cam4.jpg)|
 ### f6-25
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f6-25.png](./results/v3/sanmiguel/f6-25.png)|![f6-25.png](./results/r3/sanmiguel/f6-25.png)|
+|![f6-25.jpg](./results/v3/sanmiguel/f6-25.jpg)|![f6-25.jpg](./results/r3/sanmiguel/f6-25.jpg)|
 ### sanmiguel_cam14
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam14.png](./results/v3/sanmiguel/sanmiguel_cam14.png)|![sanmiguel_cam14.png](./results/r3/sanmiguel/sanmiguel_cam14.png)|
+|![sanmiguel_cam14.jpg](./results/v3/sanmiguel/sanmiguel_cam14.jpg)|![sanmiguel_cam14.jpg](./results/r3/sanmiguel/sanmiguel_cam14.jpg)|
 ### sanmiguel_cam15
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sanmiguel_cam15.png](./results/v3/sanmiguel/sanmiguel_cam15.png)|![sanmiguel_cam15.png](./results/r3/sanmiguel/sanmiguel_cam15.png)|
+|![sanmiguel_cam15.jpg](./results/v3/sanmiguel/sanmiguel_cam15.jpg)|![sanmiguel_cam15.jpg](./results/r3/sanmiguel/sanmiguel_cam15.jpg)|
 ### f10-8
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f10-8.png](./results/v3/sanmiguel/f10-8.png)|![f10-8.png](./results/r3/sanmiguel/f10-8.png)|
+|![f10-8.jpg](./results/v3/sanmiguel/f10-8.jpg)|![f10-8.jpg](./results/r3/sanmiguel/f10-8.jpg)|
 ## simple
 ### teapot-metal
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![teapot-metal.png](./results/v3/simple/teapot-metal.png)|![teapot-metal.png](./results/r3/simple/teapot-metal.png)|
+|![teapot-metal.jpg](./results/v3/simple/teapot-metal.jpg)|![teapot-metal.jpg](./results/r3/simple/teapot-metal.jpg)|
 ### caustic-proj
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![caustic-proj.png](./results/v3/simple/caustic-proj.png)|![caustic-proj.png](./results/r3/simple/caustic-proj.png)|
+|![caustic-proj.jpg](./results/v3/simple/caustic-proj.jpg)|![caustic-proj.jpg](./results/r3/simple/caustic-proj.jpg)|
 ### anim-bluespheres
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![anim-bluespheres.png](./results/v3/simple/anim-bluespheres.png)|![anim-bluespheres.png](./results/r3/simple/anim-bluespheres.png)|
+|![anim-bluespheres.jpg](./results/v3/simple/anim-bluespheres.jpg)|![anim-bluespheres.jpg](./results/r3/simple/anim-bluespheres.jpg)|
 ### miscquads
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![miscquads.png](./results/v3/simple/miscquads.png)|![miscquads.png](./results/r3/simple/miscquads.png)|
+|![miscquads.jpg](./results/v3/simple/miscquads.jpg)|![miscquads.jpg](./results/r3/simple/miscquads.jpg)|
 ### room-sppm
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![room-sppm.png](./results/v3/simple/room-sppm.png)|![room-sppm.png](./results/r3/simple/room-sppm.png)|
+|![room-sppm.jpg](./results/v3/simple/room-sppm.jpg)|![room-sppm.jpg](./results/r3/simple/room-sppm.jpg)|
 ### buddha
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![buddha.png](./results/v3/simple/buddha.png)|![buddha.png](./results/r3/simple/buddha.png)|
+|![buddha.jpg](./results/v3/simple/buddha.jpg)|![buddha.jpg](./results/r3/simple/buddha.jpg)|
 ### dof-dragons
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dof-dragons.png](./results/v3/simple/dof-dragons.png)|![dof-dragons.png](./results/r3/simple/dof-dragons.png)|
+|![dof-dragons.jpg](./results/v3/simple/dof-dragons.jpg)|![dof-dragons.jpg](./results/r3/simple/dof-dragons.jpg)|
 ### teapot-area-light
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![teapot-area-light.png](./results/v3/simple/teapot-area-light.png)|![teapot-area-light.png](./results/r3/simple/teapot-area-light.png)|
+|![teapot-area-light.jpg](./results/v3/simple/teapot-area-light.jpg)|![teapot-area-light.jpg](./results/r3/simple/teapot-area-light.jpg)|
 ### room-path
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![room-path.png](./results/v3/simple/room-path.png)|![room-path.png](./results/r3/simple/room-path.png)|
+|![room-path.jpg](./results/v3/simple/room-path.jpg)|![room-path.jpg](./results/r3/simple/room-path.jpg)|
 ### spheres-differentials-texfilt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![spheres-differentials-texfilt.png](./results/v3/simple/spheres-differentials-texfilt.png)|![spheres-differentials-texfilt.png](./results/r3/simple/spheres-differentials-texfilt.png)|
+|![spheres-differentials-texfilt.jpg](./results/v3/simple/spheres-differentials-texfilt.jpg)|![spheres-differentials-texfilt.jpg](./results/r3/simple/spheres-differentials-texfilt.jpg)|
 ### bump-sphere
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![bump-sphere.png](./results/v3/simple/bump-sphere.png)|![bump-sphere.png](./results/r3/simple/bump-sphere.png)|
+|![bump-sphere.jpg](./results/v3/simple/bump-sphere.jpg)|![bump-sphere.jpg](./results/r3/simple/bump-sphere.jpg)|
 ### spotfog
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![spotfog.png](./results/v3/simple/spotfog.png)|![spotfog.png](./results/r3/simple/spotfog.png)|
+|![spotfog.jpg](./results/v3/simple/spotfog.jpg)|![spotfog.jpg](./results/r3/simple/spotfog.jpg)|
 ### room-mlt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![room-mlt.png](./results/v3/simple/room-mlt.png)|![room-mlt.png](./results/r3/simple/room-mlt.png)|
+|![room-mlt.jpg](./results/v3/simple/room-mlt.jpg)|![room-mlt.jpg](./results/r3/simple/room-mlt.jpg)|
 ## smoke-plume
 ### plume-284
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![plume-284.png](./results/v3/smoke-plume/plume-284.png)|![plume-284.png](./results/r3/smoke-plume/plume-284.png)|
+|![plume-284.jpg](./results/v3/smoke-plume/plume-284.jpg)|![plume-284.jpg](./results/r3/smoke-plume/plume-284.jpg)|
 ### plume-084
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![plume-084.png](./results/v3/smoke-plume/plume-084.png)|![plume-084.png](./results/r3/smoke-plume/plume-084.png)|
+|![plume-084.jpg](./results/v3/smoke-plume/plume-084.jpg)|![plume-084.jpg](./results/r3/smoke-plume/plume-084.jpg)|
 ### plume-184
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![plume-184.png](./results/v3/smoke-plume/plume-184.png)|![plume-184.png](./results/r3/smoke-plume/plume-184.png)|
+|![plume-184.jpg](./results/v3/smoke-plume/plume-184.jpg)|![plume-184.jpg](./results/r3/smoke-plume/plume-184.jpg)|
 ## sportscar
 ### f12-19a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f12-19a.png](./results/v3/sportscar/f12-19a.png)|![f12-19a.png](./results/r3/sportscar/f12-19a.png)|
+|![f12-19a.jpg](./results/v3/sportscar/f12-19a.jpg)|![f12-19a.jpg](./results/r3/sportscar/f12-19a.jpg)|
 ### f7-37b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-37b.png](./results/v3/sportscar/f7-37b.png)|![f7-37b.png](./results/r3/sportscar/f7-37b.png)|
+|![f7-37b.jpg](./results/v3/sportscar/f7-37b.jpg)|![f7-37b.jpg](./results/r3/sportscar/f7-37b.jpg)|
 ### f12-19b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f12-19b.png](./results/v3/sportscar/f12-19b.png)|![f12-19b.png](./results/r3/sportscar/f12-19b.png)|
+|![f12-19b.jpg](./results/v3/sportscar/f12-19b.jpg)|![f12-19b.jpg](./results/r3/sportscar/f12-19b.jpg)|
 ### f7-37a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f7-37a.png](./results/v3/sportscar/f7-37a.png)|![f7-37a.png](./results/r3/sportscar/f7-37a.png)|
+|![f7-37a.jpg](./results/v3/sportscar/f7-37a.jpg)|![f7-37a.jpg](./results/r3/sportscar/f7-37a.jpg)|
 ### f12-20b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f12-20b.png](./results/v3/sportscar/f12-20b.png)|![f12-20b.png](./results/r3/sportscar/f12-20b.png)|
+|![f12-20b.jpg](./results/v3/sportscar/f12-20b.jpg)|![f12-20b.jpg](./results/r3/sportscar/f12-20b.jpg)|
 ### sportscar
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![sportscar.png](./results/v3/sportscar/sportscar.png)|![sportscar.png](./results/r3/sportscar/sportscar.png)|
+|![sportscar.jpg](./results/v3/sportscar/sportscar.jpg)|![sportscar.jpg](./results/r3/sportscar/sportscar.jpg)|
 ### f12-20a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f12-20a.png](./results/v3/sportscar/f12-20a.png)|![f12-20a.png](./results/r3/sportscar/f12-20a.png)|
+|![f12-20a.jpg](./results/v3/sportscar/f12-20a.jpg)|![f12-20a.jpg](./results/r3/sportscar/f12-20a.jpg)|
 ## sssdragon
 ### dragon_50
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dragon_50.png](./results/v3/sssdragon/dragon_50.png)|![dragon_50.png](./results/r3/sssdragon/dragon_50.png)|
+|![dragon_50.jpg](./results/v3/sssdragon/dragon_50.jpg)|![dragon_50.jpg](./results/r3/sssdragon/dragon_50.jpg)|
 ### dragon_250
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dragon_250.png](./results/v3/sssdragon/dragon_250.png)|![dragon_250.png](./results/r3/sssdragon/dragon_250.png)|
+|![dragon_250.jpg](./results/v3/sssdragon/dragon_250.jpg)|![dragon_250.jpg](./results/r3/sssdragon/dragon_250.jpg)|
 ### pbrt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pbrt.png](./results/v3/sssdragon/pbrt.png)|![pbrt.png](./results/r3/sssdragon/pbrt.png)|
+|![pbrt.jpg](./results/v3/sssdragon/pbrt.jpg)|![pbrt.jpg](./results/r3/sssdragon/pbrt.jpg)|
 ### dragon_10
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![dragon_10.png](./results/v3/sssdragon/dragon_10.png)|![dragon_10.png](./results/r3/sssdragon/dragon_10.png)|
+|![dragon_10.jpg](./results/v3/sssdragon/dragon_10.jpg)|![dragon_10.jpg](./results/r3/sssdragon/dragon_10.jpg)|
 ## structuresynth
 ### metal
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![metal.png](./results/v3/structuresynth/metal.png)|![metal.png](./results/r3/structuresynth/metal.png)|
+|![metal.jpg](./results/v3/structuresynth/metal.jpg)|![metal.jpg](./results/r3/structuresynth/metal.jpg)|
 ### arcsphere
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![arcsphere.png](./results/v3/structuresynth/arcsphere.png)|![arcsphere.png](./results/r3/structuresynth/arcsphere.png)|
+|![arcsphere.jpg](./results/v3/structuresynth/arcsphere.jpg)|![arcsphere.jpg](./results/r3/structuresynth/arcsphere.jpg)|
 ### microcity
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![microcity.png](./results/v3/structuresynth/microcity.png)|![microcity.png](./results/r3/structuresynth/microcity.png)|
+|![microcity.jpg](./results/v3/structuresynth/microcity.jpg)|![microcity.jpg](./results/r3/structuresynth/microcity.jpg)|
 ### ballpile
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![ballpile.png](./results/v3/structuresynth/ballpile.png)|![ballpile.png](./results/r3/structuresynth/ballpile.png)|
+|![ballpile.jpg](./results/v3/structuresynth/ballpile.jpg)|![ballpile.jpg](./results/r3/structuresynth/ballpile.jpg)|
 ## transparent-machines
 ### frame812
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame812.png](./results/v3/transparent-machines/frame812.png)|![frame812.png](./results/r3/transparent-machines/frame812.png)|
+|![frame812.jpg](./results/v3/transparent-machines/frame812.jpg)|![frame812.jpg](./results/r3/transparent-machines/frame812.jpg)|
 ### frame542
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame542.png](./results/v3/transparent-machines/frame542.png)|![frame542.png](./results/r3/transparent-machines/frame542.png)|
+|![frame542.jpg](./results/v3/transparent-machines/frame542.jpg)|![frame542.jpg](./results/r3/transparent-machines/frame542.jpg)|
 ### frame888
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame888.png](./results/v3/transparent-machines/frame888.png)|![frame888.png](./results/r3/transparent-machines/frame888.png)|
+|![frame888.jpg](./results/v3/transparent-machines/frame888.jpg)|![frame888.jpg](./results/r3/transparent-machines/frame888.jpg)|
 ### frame1266
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame1266.png](./results/v3/transparent-machines/frame1266.png)|![frame1266.png](./results/r3/transparent-machines/frame1266.png)|
+|![frame1266.jpg](./results/v3/transparent-machines/frame1266.jpg)|![frame1266.jpg](./results/r3/transparent-machines/frame1266.jpg)|
 ### frame675
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![frame675.png](./results/v3/transparent-machines/frame675.png)|![frame675.png](./results/r3/transparent-machines/frame675.png)|
+|![frame675.jpg](./results/v3/transparent-machines/frame675.jpg)|![frame675.jpg](./results/r3/transparent-machines/frame675.jpg)|
 ## tt
 ### tt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![tt.png](./results/v3/tt/tt.png)|![tt.png](./results/r3/tt/tt.png)|
+|![tt.jpg](./results/v3/tt/tt.jpg)|![tt.jpg](./results/r3/tt/tt.jpg)|
 ## veach-bidir
 ### bidir
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![bidir.png](./results/v3/veach-bidir/bidir.png)|![bidir.png](./results/r3/veach-bidir/bidir.png)|
+|![bidir.jpg](./results/v3/veach-bidir/bidir.jpg)|![bidir.jpg](./results/r3/veach-bidir/bidir.jpg)|
 ## veach-mis
 ### pbrt
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![pbrt.png](./results/v3/veach-mis/pbrt.png)|![pbrt.png](./results/r3/veach-mis/pbrt.png)|
+|![pbrt.jpg](./results/v3/veach-mis/pbrt.jpg)|![pbrt.jpg](./results/r3/veach-mis/pbrt.jpg)|
 ## villa
 ### f16-20c
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-20c.png](./results/v3/villa/f16-20c.png)|![f16-20c.png](./results/r3/villa/f16-20c.png)|
+|![f16-20c.jpg](./results/v3/villa/f16-20c.jpg)|![f16-20c.jpg](./results/r3/villa/f16-20c.jpg)|
 ### f16-20b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-20b.png](./results/v3/villa/f16-20b.png)|![f16-20b.png](./results/r3/villa/f16-20b.png)|
+|![f16-20b.jpg](./results/v3/villa/f16-20b.jpg)|![f16-20b.jpg](./results/r3/villa/f16-20b.jpg)|
 ### f16-20a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-20a.png](./results/v3/villa/f16-20a.png)|![f16-20a.png](./results/r3/villa/f16-20a.png)|
+|![f16-20a.jpg](./results/v3/villa/f16-20a.jpg)|![f16-20a.jpg](./results/r3/villa/f16-20a.jpg)|
 ### villa-photons
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![villa-photons.png](./results/v3/villa/villa-photons.png)|![villa-photons.png](./results/r3/villa/villa-photons.png)|
+|![villa-photons.jpg](./results/v3/villa/villa-photons.jpg)|![villa-photons.jpg](./results/r3/villa/villa-photons.jpg)|
 ### villa-daylight
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![villa-daylight.png](./results/v3/villa/villa-daylight.png)|![villa-daylight.png](./results/r3/villa/villa-daylight.png)|
+|![villa-daylight.jpg](./results/v3/villa/villa-daylight.jpg)|![villa-daylight.jpg](./results/r3/villa/villa-daylight.jpg)|
 ### villa-lights-on
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![villa-lights-on.png](./results/v3/villa/villa-lights-on.png)|![villa-lights-on.png](./results/r3/villa/villa-lights-on.png)|
+|![villa-lights-on.jpg](./results/v3/villa/villa-lights-on.jpg)|![villa-lights-on.jpg](./results/r3/villa/villa-lights-on.jpg)|
 ## volume-caustic
 ### f16-22ab
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-22ab.png](./results/v3/volume-caustic/f16-22ab.png)|![f16-22ab.png](./results/r3/volume-caustic/f16-22ab.png)|
+|![f16-22ab.jpg](./results/v3/volume-caustic/f16-22ab.jpg)|![f16-22ab.jpg](./results/r3/volume-caustic/f16-22ab.jpg)|
 ### caustic
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![caustic.png](./results/v3/volume-caustic/caustic.png)|![caustic.png](./results/r3/volume-caustic/caustic.png)|
+|![caustic.jpg](./results/v3/volume-caustic/caustic.jpg)|![caustic.jpg](./results/r3/volume-caustic/caustic.jpg)|
 ### f16-22a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f16-22a.png](./results/v3/volume-caustic/f16-22a.png)|![f16-22a.png](./results/r3/volume-caustic/f16-22a.png)|
+|![f16-22a.jpg](./results/v3/volume-caustic/f16-22a.jpg)|![f16-22a.jpg](./results/r3/volume-caustic/f16-22a.jpg)|
 ## vw-van
 ### vw-van
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![vw-van.png](./results/v3/vw-van/vw-van.png)|![vw-van.png](./results/r3/vw-van/vw-van.png)|
+|![vw-van.jpg](./results/v3/vw-van/vw-van.jpg)|![vw-van.jpg](./results/r3/vw-van/vw-van.jpg)|
 ## white-room
 ### whiteroom-daytime
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![whiteroom-daytime.png](./results/v3/white-room/whiteroom-daytime.png)|![whiteroom-daytime.png](./results/r3/white-room/whiteroom-daytime.png)|
+|![whiteroom-daytime.jpg](./results/v3/white-room/whiteroom-daytime.jpg)|![whiteroom-daytime.jpg](./results/r3/white-room/whiteroom-daytime.jpg)|
 ### whiteroom-night
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![whiteroom-night.png](./results/v3/white-room/whiteroom-night.png)|![whiteroom-night.png](./results/r3/white-room/whiteroom-night.png)|
+|![whiteroom-night.jpg](./results/v3/white-room/whiteroom-night.jpg)|![whiteroom-night.jpg](./results/r3/white-room/whiteroom-night.jpg)|
 ## yeahright
 ### yeahright
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![yeahright.png](./results/v3/yeahright/yeahright.png)|![yeahright.png](./results/r3/yeahright/yeahright.png)|
+|![yeahright.jpg](./results/v3/yeahright/yeahright.jpg)|![yeahright.jpg](./results/r3/yeahright/yeahright.jpg)|

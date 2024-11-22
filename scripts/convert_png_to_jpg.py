@@ -5,11 +5,11 @@ import subprocess
 
 def process(args):
     input_dir = args.input_dir
-    exr_files = glob.glob(os.path.join(input_dir, "**", "*.exr"))
+    exr_files = glob.glob(os.path.join(input_dir, "**", "*.png"))
     exr_files = sorted(exr_files)
     print(exr_files)
     for exr_file in exr_files:
-        png_file = exr_file.replace(".exr", ".png")
+        png_file = exr_file.replace(".png", ".jpg")
         if not os.path.exists(png_file):
             command = ["convert", exr_file, png_file]
             print(" ".join(command))
@@ -20,7 +20,7 @@ def process(args):
     return 0
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert EXR files to PNG files")
+    parser = argparse.ArgumentParser(description="Convert PNG files to JPG files")
     parser.add_argument("-i", "--input_dir", help="Input directory containing EXR files")
     args = parser.parse_args()
     return process(args)
