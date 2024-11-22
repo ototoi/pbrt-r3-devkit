@@ -12,38 +12,39 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
- Texture
-   Trilinear lookups 2097152
- Scene
-   Lights 1
-   Materials 5
-   Shapes 6
  Memory
-   Texture MIP maps 8.0 MiB
+   Texture MIP maps 16.0 MiB
  BVH
-   Leaf nodes 2
-   Interior nodes 1
+   Leaf nodes 171596
+   Interior nodes 171595
+ Scene
+   Lights 2
+   Shapes 532231
+   Materials 5
+   AreaLights 1
 
 
 
 Statistics:
- Intersections
-   Shadow ray intersection tests 8192396447
-   Regular ray intersection tests 37193894532
  Texture
-   Trilinear lookups 19811153998
- Integrator
-   Camera rays traced 8881799168
- BVH
-   Interior nodes 1
-   Leaf nodes 2
+   EWA lookups 5031775178
+   Trilinear lookups 2827095817
  Scene
-   Lights 1
-   Shapes 6
+   AreaLights 1
+   Shapes 532231
+   Lights 2
    Materials 5
+ Intersections
+   Shadow ray intersection tests 5646692272
+   Regular ray intersection tests 8850406285
+ BVH
+   Interior nodes 171595
+   Leaf nodes 171596
  SpatialLightDistribution
-   Distributions created 4165
-   Hash probes per lookup 1.047 avg [ range " 1 " - " 4 "]
+   Distributions created 9897
+   Hash probes per lookup 1.006 avg [ range " 1 " - " 2 "]
+ Integrator
+   Camera rays traced 2884321280
  Memory
-   Texture MIP maps 8.0 MiB
+   Texture MIP maps 16.0 MiB
 
