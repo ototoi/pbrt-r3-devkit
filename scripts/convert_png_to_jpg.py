@@ -6,13 +6,13 @@ import subprocess
 def process(args):
     input_dir = args.input_dir
     force = args.force
-    exr_files = glob.glob(os.path.join(input_dir, "**", "*.png"))
-    exr_files = sorted(exr_files)
-    print(exr_files)
-    for exr_file in exr_files:
-        png_file = exr_file.replace(".png", ".jpg")
-        if force or not os.path.exists(png_file):
-            command = ["convert", exr_file, png_file]
+    png_files = glob.glob(os.path.join(input_dir, "**", "*.png"))
+    png_files = sorted(png_files)
+    print(png_files)
+    for png_file in png_files:
+        jpg_file = png_file.replace(".png", ".jpg")
+        if force or not os.path.exists(jpg_file):
+            command = ["convert", png_file, jpg_file]
             print(" ".join(command))
             ret = subprocess.run(command, encoding="utf8")
             if ret.returncode != 0:
