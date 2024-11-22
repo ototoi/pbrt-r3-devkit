@@ -12,7 +12,7 @@ def process(args):
     for png_file in png_files:
         jpg_file = png_file.replace(".png", ".jpg")
         if force or not os.path.exists(jpg_file):
-            command = ["convert", png_file, jpg_file]
+            command = ["magick", png_file, jpg_file]
             print(" ".join(command))
             ret = subprocess.run(command, encoding="utf8")
             if ret.returncode != 0:
