@@ -12,7 +12,7 @@ def process(args):
     for exr_file in exr_files:
         png_file = exr_file.replace(".exr", ".png")
         if force or not os.path.exists(png_file):
-            command = ["magick", "--trim", exr_file, png_file]
+            command = ["convert", "-trim", exr_file, png_file]
             print(" ".join(command))
             ret = subprocess.run(command, encoding="utf8")
             if ret.returncode != 0:
