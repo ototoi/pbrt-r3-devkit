@@ -8,7 +8,8 @@ def make_md_files(output_dir, dirs):
         md_file = os.path.join(output_dir, f"{dirname}.md")
         with open(md_file, "w") as f:
             f.write(f"# {dirname}\n")
-            for path in dirs[dirname]:
+            paths = sorted(dirs[dirname])
+            for path in paths:
                 basename = os.path.basename(path)
                 basename_no_ext = os.path.splitext(basename)[0]
                 f.write(f"## {basename_no_ext}\n")
@@ -25,7 +26,8 @@ def make_md_files(output_dir, dirs):
         f.write("# Gallery\n")
         for dirname in keys:
             f.write(f"## {dirname}\n")
-            for path in dirs[dirname]:
+            paths = sorted(dirs[dirname])
+            for path in paths:
                 basename = os.path.basename(path)
                 basename_no_ext = os.path.splitext(basename)[0]
                 f.write(f"### {basename_no_ext}\n")
