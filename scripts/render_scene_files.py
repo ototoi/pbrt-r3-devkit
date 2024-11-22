@@ -74,13 +74,16 @@ def execute_commands(task_dir, scenes):
     for scene in scenes:
         parent = os.path.basename(os.path.dirname(scene))
         dir = os.path.join(task_dir, parent)
-        comman_file = os.path.splitext(os.path.basename(scene))[0] + "_command.txt"
-        with open(os.path.join(dir, comman_file), "r") as f:
+        command_file = os.path.splitext(os.path.basename(scene))[0] + "_command.txt"
+        with open(os.path.join(dir, command_file), "r") as f:
             line = f.readlines()
             (cmd, input, working_dir, log_file, time_file) = line[0].strip().split(",")
             cmd = os.path.abspath(cmd)
             input = os.path.abspath(input)
             working_dir = os.path.abspath(working_dir)
+            image_file = os.path.splitext(input)[0] + ".exr"
+            
+
             # print(cmd)
             # print(input)
             # print(working_dir)
@@ -93,9 +96,12 @@ def execute_commands(task_dir, scenes):
             print(f"cd {working_dir}")
             print(" ".join(command))
             print("")
-            # ret = subprocess.run(
-            #    command, encoding="utf8", cwd=working_dir
-            # )
+            if os.path.exists(image_file):
+                continue
+
+            #ret = subprocess.run(
+            #   command, encoding="utf8", cwd=working_dir
+            #)
             start = time.time()
             with open(os.path.join(working_dir, log_file), "w") as f:
                 for line in get_lines(" ".join(command), working_dir):
@@ -114,6 +120,20 @@ def process(args):
     v3_cmd = args.v3_cmd
     r3_cmd = args.r3_cmd
     task_id = args.task_id
+    render_target = args.render_target
+
+    is_render = {
+        "v3": False,
+        "r3": False,
+    }
+    if render_target == "all":
+        is_render["v3"] = True
+        is_render["r3"] = True
+    elif render_target == "v3":
+        is_render["v3"] = True
+    elif render_target == "r3":
+        is_render["r3"] = True
+
 
     scenes = get_scenes(scenes_dir, input_scenes)
     # print(scenes)
@@ -123,11 +143,15 @@ def process(args):
     id_dir = os.path.join(work_dir, task_id)
     os.makedirs(id_dir, exist_ok=True)
 
-    create_commands(os.path.join(id_dir, "v3"), scenes, v3_cmd)
-    create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
+    if is_render["v3"]:
+        create_commands(os.path.join(id_dir, "v3"), scenes, v3_cmd)
+    if is_render["r3"]:
+        create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
 
-    execute_commands(os.path.join(id_dir, "v3"), scenes)
-    execute_commands(os.path.join(id_dir, "r3"), scenes)
+    if is_render["v3"]:
+        execute_commands(os.path.join(id_dir, "v3"), scenes)
+    if is_render["r3"]:
+        execute_commands(os.path.join(id_dir, "r3"), scenes)
 
     return 0
 
@@ -148,6 +172,7 @@ def main():
     )
     parser.add_argument("--work_dir", default="./work", help="Working directory")
     parser.add_argument("--task-id", default=None, help="Task ID")
+    parser.add_argument("-t", "--render_target", default="all", choices=["all", "v3", "r3"],help="Render target")
 
     args = parser.parse_args()
     return process(args)
