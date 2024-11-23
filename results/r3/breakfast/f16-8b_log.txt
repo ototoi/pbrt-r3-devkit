@@ -12,14 +12,14 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
+ BVH
+   Interior nodes 176956
+   Leaf nodes 176957
  Scene
+   Materials 65
+   AreaLights 2
    Shapes 533262
    Lights 2
-   AreaLights 2
-   Materials 65
- BVH
-   Leaf nodes 176957
-   Interior nodes 176956
  Memory
    Texture MIP maps 25.3 MiB
 
@@ -29,21 +29,21 @@ Statistics:
  BVH
    Leaf nodes 176957
    Interior nodes 176956
- Scene
-   Lights 2
-   Materials 65
-   AreaLights 2
-   Shapes 533262
- Stochastic Progressive Photon Mapping
-   Photon paths followed 80000000
-   Grid cells per visible point 9.033 avg [ range " 1 " - " 27 "]
- Intersections
-   Regular ray intersection tests 252535947
-   Shadow ray intersection tests 72679601
  Texture
    Trilinear lookups 12306387
    EWA lookups 35294456
+ Stochastic Progressive Photon Mapping
+   Photon paths followed 80000000
+   Grid cells per visible point 9.033 avg [ range " 1 " - " 27 "]
  Memory
    Texture MIP maps 25.3 MiB
    SPPM Pixels 99.2 MiB
+ Intersections
+   Regular ray intersection tests 252535947
+   Shadow ray intersection tests 72679601
+ Scene
+   Materials 65
+   AreaLights 2
+   Lights 2
+   Shapes 533262
 
