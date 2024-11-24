@@ -15,14 +15,40 @@ Statistics:
  Texture
    Trilinear lookups 524288
  Scene
-   Lights 3
-   Object instances used 30259
-   Shapes 27462016
-   Materials 1007
    Object instances created 32
+   Lights 3
+   Shapes 27462016
+   Object instances used 30259
+   Materials 1007
  BVH
    Leaf nodes 9379032
    Interior nodes 9379003
  Memory
    Texture MIP maps 3.1 GiB
+
+
+
+Statistics:
+ BVH
+   Leaf nodes 9379032
+   Interior nodes 9379003
+ Memory
+   Texture MIP maps 3.1 GiB
+ Scene
+   Object instances created 32
+   Lights 3
+   Object instances used 30259
+   Shapes 27462016
+   Materials 1007
+ Integrator
+   Camera rays traced 1724329984
+ SpatialLightDistribution
+   Distributions created 5449
+   Hash probes per lookup 1.021 avg [ range " 1 " - " 3 "]
+ Intersections
+   Regular ray intersection tests 7503532355
+   Shadow ray intersection tests 4553338292
+ Texture
+   EWA lookups 38155683738
+   Trilinear lookups 34113436804
 
