@@ -12,10 +12,6 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
- Scene
-   Lights 2
-   Shapes 88066
-   Materials 4
  BVH
    Leaf nodes 28154
    Interior nodes 28153
@@ -23,4 +19,25 @@ Statistics:
    Trilinear lookups 4
  Memory
    Texture MIP maps 0.0 KB
+ Scene
+   Materials 4
+   Shapes 88066
+   Lights 2
+
+
+
+Statistics:
+ Memory
+   Texture MIP maps 0.0 KB
+ BVH
+   Interior nodes 28153
+   Leaf nodes 28154
+ Intersections
+   Regular ray intersection tests 71281735584
+ Scene
+   Materials 4
+   Shapes 88066
+   Lights 2
+ Texture
+   Trilinear lookups 14190826308
 
