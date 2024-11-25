@@ -15,28 +15,30 @@ Statistics:
  BVH
    Leaf nodes 594961
    Interior nodes 594960
- Memory
-   Texture MIP maps 24.0 MiB
- Scene
-   Lights 1
-   Materials 3
-   Shapes 1848600
  Texture
    Trilinear lookups 2097152
+ Scene
+   Shapes 1848600
+   Lights 1
+   Materials 3
+ Memory
+   Texture MIP maps 24.0 MiB
 
+func_int: 0.050223574, max_depth:9 -> b:0.5022358
+Splat scale: 0.00003065404
 
 
 Statistics:
- Intersections
-   Regular ray intersection tests 2191834129
  Memory
    Texture MIP maps 24.0 MiB
+ Intersections
+   Regular ray intersection tests 2191834129
  BVH
    Interior nodes 594960
    Leaf nodes 594961
  Scene
-   Shapes 1848600
    Lights 1
+   Shapes 1848600
    Materials 3
  Texture
    Trilinear lookups 1281020981
