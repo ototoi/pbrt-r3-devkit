@@ -12,6 +12,8 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
+ Texture
+   Trilinear lookups 134217728
  BVH
    Leaf nodes 1
  Scene
@@ -20,30 +22,28 @@ Statistics:
    Materials 2
  Memory
    Texture MIP maps 512.0 MiB
- Texture
-   Trilinear lookups 134217728
 
 
 
 Statistics:
  Scene
-   Shapes 4
    Materials 2
    Lights 1
- Intersections
-   Regular ray intersection tests 16708882968
+   Shapes 4
  Texture
-   Trilinear lookups 5234339958
- SpatialLightDistribution
-   Distributions created 4100
-   Hash probes per lookup 1.019 avg [ range " 1 " - " 3 "]
+   Trilinear lookups 4419363982
+ Intersections
+   Regular ray intersection tests 14479887961
+ Integrator
+   Surface interactions 5558421201
+   Volume interactions 1189595308
+   Camera rays traced 1479479296
+   Path length 1.640 avg [ range " 0 " - " 5 "]
  Memory
    Texture MIP maps 512.0 MiB
  BVH
    Leaf nodes 1
- Integrator
-   Camera rays traced 1479479296
-   Surface interactions 5153473029
-   Volume interactions 1927188736
-   Path length 2.000 avg [ range " 0 " - " 5 "]
+ SpatialLightDistribution
+   Distributions created 4100
+   Hash probes per lookup 1.019 avg [ range " 1 " - " 3 "]
 
