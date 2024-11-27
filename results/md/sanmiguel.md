@@ -1,4 +1,12 @@
 # sanmiguel
+## f6-17
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f6-17.jpg](../v3/sanmiguel/f6-17.jpg)|![f6-17.jpg](../r3/sanmiguel/f6-17.jpg)|
+## f6-25
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f6-25.jpg](../v3/sanmiguel/f6-25.jpg)|![f6-25.jpg](../r3/sanmiguel/f6-25.jpg)|
 ## f10-8
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -15,14 +23,6 @@
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-21c.jpg](../v3/sanmiguel/f16-21c.jpg)|![f16-21c.jpg](../r3/sanmiguel/f16-21c.jpg)|
-## f6-17
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f6-17.jpg](../v3/sanmiguel/f6-17.jpg)|![f6-17.jpg](../r3/sanmiguel/f6-17.jpg)|
-## f6-25
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f6-25.jpg](../v3/sanmiguel/f6-25.jpg)|![f6-25.jpg](../r3/sanmiguel/f6-25.jpg)|
 ## sanmiguel
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -31,6 +31,14 @@
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![sanmiguel_cam1.jpg](../v3/sanmiguel/sanmiguel_cam1.jpg)|![sanmiguel_cam1.jpg](../r3/sanmiguel/sanmiguel_cam1.jpg)|
+## sanmiguel_cam3
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![sanmiguel_cam3.jpg](../v3/sanmiguel/sanmiguel_cam3.jpg)|![sanmiguel_cam3.jpg](../r3/sanmiguel/sanmiguel_cam3.jpg)|
+## sanmiguel_cam4
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![sanmiguel_cam4.jpg](../v3/sanmiguel/sanmiguel_cam4.jpg)|![sanmiguel_cam4.jpg](../r3/sanmiguel/sanmiguel_cam4.jpg)|
 ## sanmiguel_cam14
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -51,11 +59,3 @@
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![sanmiguel_cam25.jpg](../v3/sanmiguel/sanmiguel_cam25.jpg)|![sanmiguel_cam25.jpg](../r3/sanmiguel/sanmiguel_cam25.jpg)|
-## sanmiguel_cam3
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![sanmiguel_cam3.jpg](../v3/sanmiguel/sanmiguel_cam3.jpg)|![sanmiguel_cam3.jpg](../r3/sanmiguel/sanmiguel_cam3.jpg)|
-## sanmiguel_cam4
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![sanmiguel_cam4.jpg](../v3/sanmiguel/sanmiguel_cam4.jpg)|![sanmiguel_cam4.jpg](../r3/sanmiguel/sanmiguel_cam4.jpg)|

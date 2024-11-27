@@ -49,14 +49,6 @@ Dev kit for pbrt-r3
 |---|---|
 |![f3-15.jpg](./results/v3/bunny-fur/f3-15.jpg)|![f3-15.jpg](./results/r3/bunny-fur/f3-15.jpg)|
 ## caustic-glass
-### f16-11a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f16-11a.jpg](./results/v3/caustic-glass/f16-11a.jpg)|![f16-11a.jpg](./results/r3/caustic-glass/f16-11a.jpg)|
-### f16-11b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f16-11b.jpg](./results/v3/caustic-glass/f16-11b.jpg)|![f16-11b.jpg](./results/r3/caustic-glass/f16-11b.jpg)|
 ### f16-9a
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -69,6 +61,14 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-9c.jpg](./results/v3/caustic-glass/f16-9c.jpg)|![f16-9c.jpg](./results/r3/caustic-glass/f16-9c.jpg)|
+### f16-11a
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f16-11a.jpg](./results/v3/caustic-glass/f16-11a.jpg)|![f16-11a.jpg](./results/r3/caustic-glass/f16-11a.jpg)|
+### f16-11b
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f16-11b.jpg](./results/v3/caustic-glass/f16-11b.jpg)|![f16-11b.jpg](./results/r3/caustic-glass/f16-11b.jpg)|
 ### glass
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -128,26 +128,14 @@ Dev kit for pbrt-r3
 |---|---|
 |![dambreak1.jpg](./results/v3/dambreak/dambreak1.jpg)|![dambreak1.jpg](./results/r3/dambreak/dambreak1.jpg)|
 ## dragon
-### f11-13
+### f8-4a
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f11-13.jpg](./results/v3/dragon/f11-13.jpg)|![f11-13.jpg](./results/r3/dragon/f11-13.jpg)|
-### f11-14
+|![f8-4a.jpg](./results/v3/dragon/f8-4a.jpg)|![f8-4a.jpg](./results/r3/dragon/f8-4a.jpg)|
+### f8-4b
 |pbrt-v3|pbrt-r3|
 |---|---|
-|![f11-14.jpg](./results/v3/dragon/f11-14.jpg)|![f11-14.jpg](./results/r3/dragon/f11-14.jpg)|
-### f14-3
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f14-3.jpg](./results/v3/dragon/f14-3.jpg)|![f14-3.jpg](./results/r3/dragon/f14-3.jpg)|
-### f14-5
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f14-5.jpg](./results/v3/dragon/f14-5.jpg)|![f14-5.jpg](./results/r3/dragon/f14-5.jpg)|
-### f15-13
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f15-13.jpg](./results/v3/dragon/f15-13.jpg)|![f15-13.jpg](./results/r3/dragon/f15-13.jpg)|
+|![f8-4b.jpg](./results/v3/dragon/f8-4b.jpg)|![f8-4b.jpg](./results/r3/dragon/f8-4b.jpg)|
 ### f8-10
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -172,14 +160,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f8-24.jpg](./results/v3/dragon/f8-24.jpg)|![f8-24.jpg](./results/r3/dragon/f8-24.jpg)|
-### f8-4a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f8-4a.jpg](./results/v3/dragon/f8-4a.jpg)|![f8-4a.jpg](./results/r3/dragon/f8-4a.jpg)|
-### f8-4b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f8-4b.jpg](./results/v3/dragon/f8-4b.jpg)|![f8-4b.jpg](./results/r3/dragon/f8-4b.jpg)|
 ### f9-3
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -188,28 +168,32 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f9-4.jpg](./results/v3/dragon/f9-4.jpg)|![f9-4.jpg](./results/r3/dragon/f9-4.jpg)|
+### f11-13
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f11-13.jpg](./results/v3/dragon/f11-13.jpg)|![f11-13.jpg](./results/r3/dragon/f11-13.jpg)|
+### f11-14
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f11-14.jpg](./results/v3/dragon/f11-14.jpg)|![f11-14.jpg](./results/r3/dragon/f11-14.jpg)|
+### f14-3
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f14-3.jpg](./results/v3/dragon/f14-3.jpg)|![f14-3.jpg](./results/r3/dragon/f14-3.jpg)|
+### f14-5
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f14-5.jpg](./results/v3/dragon/f14-5.jpg)|![f14-5.jpg](./results/r3/dragon/f14-5.jpg)|
+### f15-13
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f15-13.jpg](./results/v3/dragon/f15-13.jpg)|![f15-13.jpg](./results/r3/dragon/f15-13.jpg)|
 ## ecosys
 ### ecosys
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![ecosys.jpg](./results/v3/ecosys/ecosys.jpg)|![ecosys.jpg](./results/r3/ecosys/ecosys.jpg)|
 ## figures
-### f10-1a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1a.jpg](./results/v3/figures/f10-1a.jpg)|![f10-1a.jpg](./results/r3/figures/f10-1a.jpg)|
-### f10-1ac
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1ac.jpg](./results/v3/figures/f10-1ac.jpg)|![f10-1ac.jpg](./results/r3/figures/f10-1ac.jpg)|
-### f10-1b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1b.jpg](./results/v3/figures/f10-1b.jpg)|![f10-1b.jpg](./results/r3/figures/f10-1b.jpg)|
-### f11-15
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f11-15.jpg](./results/v3/figures/f11-15.jpg)|![f11-15.jpg](./results/r3/figures/f11-15.jpg)|
 ### f3-18
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -254,6 +238,18 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f8-22.jpg](./results/v3/figures/f8-22.jpg)|![f8-22.jpg](./results/r3/figures/f8-22.jpg)|
+### f10-1ac
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f10-1ac.jpg](./results/v3/figures/f10-1ac.jpg)|![f10-1ac.jpg](./results/r3/figures/f10-1ac.jpg)|
+### f10-1b
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f10-1b.jpg](./results/v3/figures/f10-1b.jpg)|![f10-1b.jpg](./results/r3/figures/f10-1b.jpg)|
+### f11-15
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f11-15.jpg](./results/v3/figures/f11-15.jpg)|![f11-15.jpg](./results/r3/figures/f11-15.jpg)|
 ## ganesha
 ### f3-11
 |pbrt-v3|pbrt-r3|
@@ -341,6 +337,22 @@ Dev kit for pbrt-r3
 |---|---|
 |![lte-orb-silver.jpg](./results/v3/lte-orb/lte-orb-silver.jpg)|![lte-orb-silver.jpg](./results/r3/lte-orb/lte-orb-silver.jpg)|
 ## measure-one
+### frame25
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![frame25.jpg](./results/v3/measure-one/frame25.jpg)|![frame25.jpg](./results/r3/measure-one/frame25.jpg)|
+### frame35
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![frame35.jpg](./results/v3/measure-one/frame35.jpg)|![frame35.jpg](./results/r3/measure-one/frame35.jpg)|
+### frame52
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![frame52.jpg](./results/v3/measure-one/frame52.jpg)|![frame52.jpg](./results/r3/measure-one/frame52.jpg)|
+### frame85
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![frame85.jpg](./results/v3/measure-one/frame85.jpg)|![frame85.jpg](./results/r3/measure-one/frame85.jpg)|
 ### frame120
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -353,36 +365,28 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![frame210.jpg](./results/v3/measure-one/frame210.jpg)|![frame210.jpg](./results/r3/measure-one/frame210.jpg)|
-### frame25
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![frame25.jpg](./results/v3/measure-one/frame25.jpg)|![frame25.jpg](./results/r3/measure-one/frame25.jpg)|
 ### frame300
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![frame300.jpg](./results/v3/measure-one/frame300.jpg)|![frame300.jpg](./results/r3/measure-one/frame300.jpg)|
-### frame35
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![frame35.jpg](./results/v3/measure-one/frame35.jpg)|![frame35.jpg](./results/r3/measure-one/frame35.jpg)|
 ### frame380
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![frame380.jpg](./results/v3/measure-one/frame380.jpg)|![frame380.jpg](./results/r3/measure-one/frame380.jpg)|
-### frame52
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![frame52.jpg](./results/v3/measure-one/frame52.jpg)|![frame52.jpg](./results/r3/measure-one/frame52.jpg)|
-### frame85
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![frame85.jpg](./results/v3/measure-one/frame85.jpg)|![frame85.jpg](./results/r3/measure-one/frame85.jpg)|
 ## pbrt-book
 ### book
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![book.jpg](./results/v3/pbrt-book/book.jpg)|![book.jpg](./results/r3/pbrt-book/book.jpg)|
 ## sanmiguel
+### f6-17
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f6-17.jpg](./results/v3/sanmiguel/f6-17.jpg)|![f6-17.jpg](./results/r3/sanmiguel/f6-17.jpg)|
+### f6-25
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f6-25.jpg](./results/v3/sanmiguel/f6-25.jpg)|![f6-25.jpg](./results/r3/sanmiguel/f6-25.jpg)|
 ### f10-8
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -399,14 +403,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-21c.jpg](./results/v3/sanmiguel/f16-21c.jpg)|![f16-21c.jpg](./results/r3/sanmiguel/f16-21c.jpg)|
-### f6-17
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f6-17.jpg](./results/v3/sanmiguel/f6-17.jpg)|![f6-17.jpg](./results/r3/sanmiguel/f6-17.jpg)|
-### f6-25
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f6-25.jpg](./results/v3/sanmiguel/f6-25.jpg)|![f6-25.jpg](./results/r3/sanmiguel/f6-25.jpg)|
 ### sanmiguel
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -415,6 +411,14 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![sanmiguel_cam1.jpg](./results/v3/sanmiguel/sanmiguel_cam1.jpg)|![sanmiguel_cam1.jpg](./results/r3/sanmiguel/sanmiguel_cam1.jpg)|
+### sanmiguel_cam3
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![sanmiguel_cam3.jpg](./results/v3/sanmiguel/sanmiguel_cam3.jpg)|![sanmiguel_cam3.jpg](./results/r3/sanmiguel/sanmiguel_cam3.jpg)|
+### sanmiguel_cam4
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![sanmiguel_cam4.jpg](./results/v3/sanmiguel/sanmiguel_cam4.jpg)|![sanmiguel_cam4.jpg](./results/r3/sanmiguel/sanmiguel_cam4.jpg)|
 ### sanmiguel_cam14
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -435,14 +439,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![sanmiguel_cam25.jpg](./results/v3/sanmiguel/sanmiguel_cam25.jpg)|![sanmiguel_cam25.jpg](./results/r3/sanmiguel/sanmiguel_cam25.jpg)|
-### sanmiguel_cam3
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![sanmiguel_cam3.jpg](./results/v3/sanmiguel/sanmiguel_cam3.jpg)|![sanmiguel_cam3.jpg](./results/r3/sanmiguel/sanmiguel_cam3.jpg)|
-### sanmiguel_cam4
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![sanmiguel_cam4.jpg](./results/v3/sanmiguel/sanmiguel_cam4.jpg)|![sanmiguel_cam4.jpg](./results/r3/sanmiguel/sanmiguel_cam4.jpg)|
 ## simple
 ### anim-bluespheres
 |pbrt-v3|pbrt-r3|
@@ -510,6 +506,14 @@ Dev kit for pbrt-r3
 |---|---|
 |![plume-284.jpg](./results/v3/smoke-plume/plume-284.jpg)|![plume-284.jpg](./results/r3/smoke-plume/plume-284.jpg)|
 ## sportscar
+### f7-37a
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f7-37a.jpg](./results/v3/sportscar/f7-37a.jpg)|![f7-37a.jpg](./results/r3/sportscar/f7-37a.jpg)|
+### f7-37b
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f7-37b.jpg](./results/v3/sportscar/f7-37b.jpg)|![f7-37b.jpg](./results/r3/sportscar/f7-37b.jpg)|
 ### f12-19a
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -526,14 +530,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f12-20b.jpg](./results/v3/sportscar/f12-20b.jpg)|![f12-20b.jpg](./results/r3/sportscar/f12-20b.jpg)|
-### f7-37a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f7-37a.jpg](./results/v3/sportscar/f7-37a.jpg)|![f7-37a.jpg](./results/r3/sportscar/f7-37a.jpg)|
-### f7-37b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f7-37b.jpg](./results/v3/sportscar/f7-37b.jpg)|![f7-37b.jpg](./results/r3/sportscar/f7-37b.jpg)|
 ### sportscar
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -543,14 +539,14 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![dragon_10.jpg](./results/v3/sssdragon/dragon_10.jpg)|![dragon_10.jpg](./results/r3/sssdragon/dragon_10.jpg)|
-### dragon_250
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![dragon_250.jpg](./results/v3/sssdragon/dragon_250.jpg)|![dragon_250.jpg](./results/r3/sssdragon/dragon_250.jpg)|
 ### dragon_50
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![dragon_50.jpg](./results/v3/sssdragon/dragon_50.jpg)|![dragon_50.jpg](./results/r3/sssdragon/dragon_50.jpg)|
+### dragon_250
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![dragon_250.jpg](./results/v3/sssdragon/dragon_250.jpg)|![dragon_250.jpg](./results/r3/sssdragon/dragon_250.jpg)|
 ### f15-7
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -573,10 +569,6 @@ Dev kit for pbrt-r3
 |---|---|
 |![microcity.jpg](./results/v3/structuresynth/microcity.jpg)|![microcity.jpg](./results/r3/structuresynth/microcity.jpg)|
 ## transparent-machines
-### frame1266
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![frame1266.jpg](./results/v3/transparent-machines/frame1266.jpg)|![frame1266.jpg](./results/r3/transparent-machines/frame1266.jpg)|
 ### frame542
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -593,6 +585,10 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![frame888.jpg](./results/v3/transparent-machines/frame888.jpg)|![frame888.jpg](./results/r3/transparent-machines/frame888.jpg)|
+### frame1266
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![frame1266.jpg](./results/v3/transparent-machines/frame1266.jpg)|![frame1266.jpg](./results/r3/transparent-machines/frame1266.jpg)|
 ## tt
 ### tt
 |pbrt-v3|pbrt-r3|
@@ -642,10 +638,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-22a.jpg](./results/v3/volume-caustic/f16-22a.jpg)|![f16-22a.jpg](./results/r3/volume-caustic/f16-22a.jpg)|
-### f16-22ab
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f16-22ab.jpg](./results/v3/volume-caustic/f16-22ab.jpg)|![f16-22ab.jpg](./results/r3/volume-caustic/f16-22ab.jpg)|
 ### f16-22b
 |pbrt-v3|pbrt-r3|
 |---|---|
