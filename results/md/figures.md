@@ -1,20 +1,4 @@
 # figures
-## f10-1a
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1a.jpg](../v3/figures/f10-1a.jpg)|![f10-1a.jpg](../r3/figures/f10-1a.jpg)|
-## f10-1ac
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1ac.jpg](../v3/figures/f10-1ac.jpg)|![f10-1ac.jpg](../r3/figures/f10-1ac.jpg)|
-## f10-1b
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f10-1b.jpg](../v3/figures/f10-1b.jpg)|![f10-1b.jpg](../r3/figures/f10-1b.jpg)|
-## f11-15
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f11-15.jpg](../v3/figures/f11-15.jpg)|![f11-15.jpg](../r3/figures/f11-15.jpg)|
 ## f3-18
 |pbrt-v3|pbrt-r3|
 |---|---|
@@ -59,3 +43,15 @@
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f8-22.jpg](../v3/figures/f8-22.jpg)|![f8-22.jpg](../r3/figures/f8-22.jpg)|
+## f10-1ac
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f10-1ac.jpg](../v3/figures/f10-1ac.jpg)|![f10-1ac.jpg](../r3/figures/f10-1ac.jpg)|
+## f10-1b
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f10-1b.jpg](../v3/figures/f10-1b.jpg)|![f10-1b.jpg](../r3/figures/f10-1b.jpg)|
+## f11-15
+|pbrt-v3|pbrt-r3|
+|---|---|
+|![f11-15.jpg](../v3/figures/f11-15.jpg)|![f11-15.jpg](../r3/figures/f11-15.jpg)|

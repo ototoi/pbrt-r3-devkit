@@ -8,7 +8,7 @@ def make_md_files(output_dir, dirs):
         md_file = os.path.join(output_dir, f"{dirname}.md")
         with open(md_file, "w") as f:
             f.write(f"# {dirname}\n")
-            paths = sorted(dirs[dirname])
+            paths = dirs[dirname]
             for path in paths:
                 basename = os.path.basename(path)
                 basename_no_ext = os.path.splitext(basename)[0]
@@ -26,7 +26,7 @@ def make_md_files(output_dir, dirs):
         f.write("# Gallery\n")
         for dirname in keys:
             f.write(f"## {dirname}\n")
-            paths = sorted(dirs[dirname])
+            paths = dirs[dirname]
             for path in paths:
                 basename = os.path.basename(path)
                 basename_no_ext = os.path.splitext(basename)[0]
@@ -40,9 +40,12 @@ def make_md_files(output_dir, dirs):
 def process(args):
     input_dir = args.input_dir
     output_dir = args.output_dir
-    png_files = glob.glob(os.path.join(input_dir, "**", "*.jpg"))
+    scenes_txt = args.scenes
+    with open(scenes_txt, "r") as f:
+        scenes = f.readlines()
+    files = [os.path.join(input_dir, "v3", scene.replace(".pbrt", ".jpg").strip()) for scene in scenes]
     dirs = {}
-    for path in png_files:
+    for path in files:
         dirname = os.path.split(os.path.dirname(path))[1]
         if dirname not in dirs:
             dirs[dirname] = []
@@ -51,7 +54,8 @@ def process(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Create markdown files for comparing pbrt-v3 and pbrt-r3")
-    parser.add_argument("-i", "--input_dir", default="./results/v3", help="Input directory containing Jpeg files")
+    parser.add_argument("-s", "--scenes", default="./results/scenes.txt", help="Scenes file")
+    parser.add_argument("-i", "--input_dir", default="./results/", help="Input directory containing Jpeg files")
     parser.add_argument("-o", "--output_dir", default="./results/md", help="Output directory for markdown files")
     args = parser.parse_args()
     return process(args)
