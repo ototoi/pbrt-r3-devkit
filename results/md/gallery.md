@@ -639,10 +639,6 @@
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-22a.jpg](../v3/volume-caustic/f16-22a.jpg)|![f16-22a.jpg](../r3/volume-caustic/f16-22a.jpg)|
-### f16-22ab
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f16-22ab.jpg](../v3/volume-caustic/f16-22ab.jpg)|![f16-22ab.jpg](../r3/volume-caustic/f16-22ab.jpg)|
 ### f16-22b
 |pbrt-v3|pbrt-r3|
 |---|---|

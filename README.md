@@ -642,10 +642,6 @@ Dev kit for pbrt-r3
 |pbrt-v3|pbrt-r3|
 |---|---|
 |![f16-22a.jpg](./results/v3/volume-caustic/f16-22a.jpg)|![f16-22a.jpg](./results/r3/volume-caustic/f16-22a.jpg)|
-### f16-22ab
-|pbrt-v3|pbrt-r3|
-|---|---|
-|![f16-22ab.jpg](./results/v3/volume-caustic/f16-22ab.jpg)|![f16-22ab.jpg](./results/r3/volume-caustic/f16-22ab.jpg)|
 ### f16-22b
 |pbrt-v3|pbrt-r3|
 |---|---|
