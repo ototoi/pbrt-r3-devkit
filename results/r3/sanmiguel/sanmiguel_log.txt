@@ -14,16 +14,16 @@ See the file LICENSE.txt for the conditions of the license.
 Statistics:
  Texture
    Trilinear lookups 33554432
- Memory
-   Texture MIP maps 2.3 GiB
- Scene
-   Object instances created 436
-   Lights 5
-   Shapes 2496112
-   AreaLights 4
-   Materials 1107
-   Object instances used 159924
  BVH
    Interior nodes 945436
    Leaf nodes 945873
+ Memory
+   Texture MIP maps 2.3 GiB
+ Scene
+   Shapes 2496112
+   Object instances used 159924
+   AreaLights 4
+   Materials 1107
+   Lights 5
+   Object instances created 436
 

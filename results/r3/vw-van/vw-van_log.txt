@@ -13,16 +13,35 @@ See the file LICENSE.txt for the conditions of the license.
 
 Statistics:
  Scene
-   Lights 1
    Shapes 1638335
    Materials 174
-   Object instances created 4
+   Lights 1
    Object instances used 240
+   Object instances created 4
+ Memory
+   Texture MIP maps 128.0 MiB
  Texture
    Trilinear lookups 33554432
  BVH
-   Interior nodes 512509
    Leaf nodes 512511
+   Interior nodes 512509
+
+
+
+Statistics:
+ Texture
+   Trilinear lookups 10953552119
  Memory
    Texture MIP maps 128.0 MiB
+ Scene
+   Lights 1
+   Object instances created 4
+   Shapes 1638335
+   Object instances used 240
+   Materials 174
+ BVH
+   Leaf nodes 512511
+   Interior nodes 512509
+ Intersections
+   Regular ray intersection tests 16217356465
 
