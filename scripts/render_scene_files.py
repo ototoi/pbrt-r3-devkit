@@ -69,7 +69,7 @@ def get_lines(cmd, dir):
         if not line and proc.poll() is not None:
             break
 
-def execute_commands(task_dir, scenes):
+def execute_commands(task_dir, scenes, quick, quick_full_resolution):
     for scene in scenes:
         parent = os.path.basename(os.path.dirname(scene))
         dir = os.path.join(task_dir, parent)
@@ -92,6 +92,11 @@ def execute_commands(task_dir, scenes):
                 "--outfile",
                 output,
             ]
+            if quick:
+                if quick_full_resolution:
+                    command.append("--quick-full-resolution")
+                else:
+                    command.append("--quick")
             print(f"cd {working_dir}")
             print(" ".join(command))
             print("")
@@ -120,6 +125,10 @@ def process(args):
     r3_cmd = args.r3_cmd
     task_id = args.task_id
     render_target = args.render_target
+    quick = args.quick
+    quick_full_resolution = args.quick_full_resolution
+    if quick_full_resolution:
+        quick = True
 
     is_render = {
         "v3": False,
@@ -148,9 +157,9 @@ def process(args):
         create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
 
     if is_render["v3"]:
-        execute_commands(os.path.join(id_dir, "v3"), scenes)
+        execute_commands(os.path.join(id_dir, "v3"), scenes, quick, False)
     if is_render["r3"]:
-        execute_commands(os.path.join(id_dir, "r3"), scenes)
+        execute_commands(os.path.join(id_dir, "r3"), scenes, quick, quick_full_resolution)
 
     return 0
 
@@ -172,6 +181,8 @@ def main():
     parser.add_argument("--work_dir", default="./work", help="Working directory")
     parser.add_argument("--task-id", default=None, help="Task ID")
     parser.add_argument("-t", "--render_target", default="all", choices=["all", "v3", "r3"],help="Render target")
+    parser.add_argument("-q", "--quick", action="store_true", help="Quick render")
+    parser.add_argument("--quick-full-resolution", action="store_true", help="Quick render with full resolution")
 
     args = parser.parse_args()
     return process(args)
