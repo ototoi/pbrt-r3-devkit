@@ -17,37 +17,37 @@ Statistics:
    Interior nodes 26497
  Memory
    Texture MIP maps 0.0 KB
- Scene
-   Shapes 80002
-   Lights 1
-   Materials 10003
-   Curves 10000
-   Split curves 80000
  Texture
    Trilinear lookups 4
+ Scene
+   Materials 10003
+   Split curves 80000
+   Shapes 80002
+   Curves 10000
+   Lights 1
 
 
 
 Statistics:
- Memory
-   Texture MIP maps 0.0 KB
- Scene
-   Materials 10003
-   Lights 1
-   Curves 10000
-   Split curves 80000
-   Shapes 80002
+ Integrator
+   Camera rays traced 515076096
  SpatialLightDistribution
    Distributions created 3460
    Hash probes per lookup 1.005 avg [ range " 1 " - " 2 "]
+ Memory
+   Texture MIP maps 0.0 KB
  Texture
-   Trilinear lookups 1746853546
+   Trilinear lookups 2424665835
+ Intersections
+   Regular ray intersection tests 4378262116
+   Shadow ray intersection tests 1747149780
  BVH
    Leaf nodes 26498
    Interior nodes 26497
- Integrator
-   Camera rays traced 515076096
- Intersections
-   Regular ray intersection tests 3032095091
-   Shadow ray intersection tests 1099724101
+ Scene
+   Curves 10000
+   Lights 1
+   Materials 10003
+   Shapes 80002
+   Split curves 80000
 
