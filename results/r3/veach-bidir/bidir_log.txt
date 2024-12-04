@@ -13,25 +13,25 @@ See the file LICENSE.txt for the conditions of the license.
 
 Statistics:
  BVH
-   Interior nodes 1081
    Leaf nodes 1082
+   Interior nodes 1081
  Scene
-   Materials 20
    Shapes 3392
+   Materials 20
    Lights 4
    AreaLights 4
 
 
 
 Statistics:
- Scene
-   Shapes 3392
-   Lights 4
-   AreaLights 4
-   Materials 20
  BVH
    Leaf nodes 1082
    Interior nodes 1081
+ Scene
+   Materials 20
+   AreaLights 4
+   Lights 4
+   Shapes 3392
  Intersections
-   Regular ray intersection tests 2196556435
+   Regular ray intersection tests 8582075
 

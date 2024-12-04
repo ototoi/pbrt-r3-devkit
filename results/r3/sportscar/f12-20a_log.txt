@@ -20,28 +20,26 @@ Statistics:
  Scene
    AreaLights 10
    Shapes 7157242
-   Lights 11
    Materials 101
+   Lights 11
  Memory
    Texture MIP maps 32.0 MiB
 
-func_int: 0.023932, max_depth:6 -> b:0.16752401
-Splat scale: 0.000010224854
 
 
 Statistics:
- Memory
-   Texture MIP maps 32.0 MiB
  Scene
-   Shapes 7157242
+   Materials 101
    AreaLights 10
    Lights 11
-   Materials 101
+   Shapes 7157242
  Texture
-   Trilinear lookups 1088798920
+   Trilinear lookups 726290118
  BVH
    Interior nodes 2323211
    Leaf nodes 2323212
+ Memory
+   Texture MIP maps 32.0 MiB
  Intersections
-   Regular ray intersection tests 2167067867
+   Regular ray intersection tests 1450712549
 

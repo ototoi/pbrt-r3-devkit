@@ -16,22 +16,20 @@ Statistics:
    Leaf nodes 2323207
    Interior nodes 2323206
  Scene
-   Lights 1
    Materials 96
+   Lights 1
    Shapes 7157232
 
-func_int: 0.06115761, max_depth:6 -> b:0.42810327
-Splat scale: 0.00002612935
 
 
 Statistics:
- BVH
-   Interior nodes 2323206
-   Leaf nodes 2323207
+ Intersections
+   Regular ray intersection tests 1469393746
  Scene
    Materials 96
    Shapes 7157232
    Lights 1
- Intersections
-   Regular ray intersection tests 2190910794
+ BVH
+   Leaf nodes 2323207
+   Interior nodes 2323206
 
