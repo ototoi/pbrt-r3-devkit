@@ -18,31 +18,31 @@ Statistics:
    Interior nodes 1539521
    Leaf nodes 1539537
  Scene
-   Materials 7513
    Lights 8916
    Object instances used 151
    Shapes 4507859
-   AreaLights 8916
+   Materials 7513
    Object instances created 15
+   AreaLights 8916
 
 
 
 Statistics:
+ BVH
+   Leaf nodes 1539537
+   Interior nodes 1539521
+ Texture
+   EWA lookups 36411435196
+   Trilinear lookups 33539706577
  Memory
    Texture MIP maps 971.4 MiB
- Texture
-   Trilinear lookups 33554361720
-   EWA lookups 36427524036
- BVH
-   Interior nodes 1539521
-   Leaf nodes 1539537
+ Intersections
+   Regular ray intersection tests 40473218975
  Scene
+   Shapes 4507859
    Object instances used 151
+   Object instances created 15
    AreaLights 8916
    Materials 7513
-   Object instances created 15
    Lights 8916
-   Shapes 4507859
- Intersections
-   Regular ray intersection tests 40490967522
 
