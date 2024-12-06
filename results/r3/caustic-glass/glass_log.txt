@@ -16,28 +16,28 @@ Statistics:
    Trilinear lookups 4
  Scene
    Materials 4
-   Shapes 88066
    Lights 2
- BVH
-   Leaf nodes 28154
-   Interior nodes 28153
+   Shapes 88066
  Memory
    Texture MIP maps 0.0 KB
+ BVH
+   Interior nodes 28153
+   Leaf nodes 28154
 
 
 
 Statistics:
+ Scene
+   Materials 4
+   Shapes 88066
+   Lights 2
  Intersections
    Regular ray intersection tests 71194870472
  BVH
-   Leaf nodes 28154
    Interior nodes 28153
- Memory
-   Texture MIP maps 0.0 KB
- Scene
-   Lights 2
-   Materials 4
-   Shapes 88066
+   Leaf nodes 28154
  Texture
    Trilinear lookups 14170336757
+ Memory
+   Texture MIP maps 0.0 KB
 
