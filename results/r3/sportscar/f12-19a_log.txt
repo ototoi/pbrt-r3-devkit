@@ -16,20 +16,20 @@ Statistics:
    Leaf nodes 2323207
    Interior nodes 2323206
  Scene
-   Materials 96
-   Lights 1
    Shapes 7157232
+   Lights 1
+   Materials 96
 
 
 
 Statistics:
  Intersections
-   Regular ray intersection tests 1469393746
+   Regular ray intersection tests 30439348772
  Scene
    Materials 96
    Shapes 7157232
    Lights 1
  BVH
-   Leaf nodes 2323207
    Interior nodes 2323206
+   Leaf nodes 2323207
 

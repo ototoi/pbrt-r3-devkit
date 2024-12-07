@@ -12,34 +12,34 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
- Memory
-   Texture MIP maps 32.0 MiB
+ BVH
+   Interior nodes 2323211
+   Leaf nodes 2323212
  Texture
    Trilinear lookups 8388608
- BVH
-   Leaf nodes 2323212
-   Interior nodes 2323211
  Scene
-   AreaLights 10
+   Shapes 7157242
    Lights 11
    Materials 101
-   Shapes 7157242
+   AreaLights 10
+ Memory
+   Texture MIP maps 32.0 MiB
 
 
 
 Statistics:
- Memory
-   Texture MIP maps 32.0 MiB
- Intersections
-   Regular ray intersection tests 1415658737
+ Texture
+   Trilinear lookups 13298654366
+ BVH
+   Interior nodes 2323211
+   Leaf nodes 2323212
  Scene
    Shapes 7157242
    Lights 11
    AreaLights 10
    Materials 101
- Texture
-   Trilinear lookups 655455806
- BVH
-   Interior nodes 2323211
-   Leaf nodes 2323212
+ Intersections
+   Regular ray intersection tests 29356400405
+ Memory
+   Texture MIP maps 32.0 MiB
 

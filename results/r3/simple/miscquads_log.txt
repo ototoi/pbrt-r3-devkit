@@ -16,9 +16,9 @@ Statistics:
    Texture MIP maps 4.0 MiB
  Scene
    Lights 2
-   Materials 5
-   Shapes 11
    AreaLights 2
+   Shapes 11
+   Materials 5
  BVH
    Interior nodes 5
    Leaf nodes 6
@@ -26,25 +26,25 @@ Statistics:
 
 
 Statistics:
- BVH
-   Interior nodes 5
-   Leaf nodes 6
- Scene
-   Materials 5
-   AreaLights 2
-   Shapes 11
-   Lights 2
- SpatialLightDistribution
-   Distributions created 5827
-   Hash probes per lookup 1.011 avg [ range " 1 " - " 3 "]
- Texture
-   EWA lookups 566619
-   Trilinear lookups 300326
+ Integrator
+   Camera rays traced 578306048
  Memory
    Texture MIP maps 4.0 MiB
+ Scene
+   AreaLights 2
+   Materials 5
+   Lights 2
+   Shapes 11
+ Texture
+   Trilinear lookups 154001027
+   EWA lookups 290351502
+ SpatialLightDistribution
+   Distributions created 6410
+   Hash probes per lookup 1.012 avg [ range " 1 " - " 4 "]
  Intersections
-   Shadow ray intersection tests 1777883
-   Regular ray intersection tests 4238926
- Integrator
-   Camera rays traced 1129504
+   Shadow ray intersection tests 909738243
+   Regular ray intersection tests 2170614231
+ BVH
+   Leaf nodes 6
+   Interior nodes 5
 
