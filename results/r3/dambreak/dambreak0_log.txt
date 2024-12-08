@@ -13,14 +13,14 @@ See the file LICENSE.txt for the conditions of the license.
 
 Statistics:
  Scene
-   Lights 1
-   Materials 12
    Shapes 619149
- BVH
-   Leaf nodes 191426
-   Interior nodes 191425
+   Materials 12
+   Lights 1
  Texture
    Trilinear lookups 134217728
  Memory
    Texture MIP maps 512.0 MiB
+ BVH
+   Interior nodes 191425
+   Leaf nodes 191426
 
