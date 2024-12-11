@@ -13,38 +13,38 @@ See the file LICENSE.txt for the conditions of the license.
 
 Statistics:
  BVH
-   Leaf nodes 896161
    Interior nodes 895734
- Memory
-   Texture MIP maps 2.3 GiB
- Scene
-   Lights 5
-   Object instances used 39124
-   Shapes 2496084
-   Object instances created 426
-   Materials 1092
-   AreaLights 4
+   Leaf nodes 896161
  Texture
    Trilinear lookups 33554432
+ Scene
+   Materials 1092
+   Object instances used 39124
+   AreaLights 4
+   Object instances created 426
+   Lights 5
+   Shapes 2496084
+ Memory
+   Texture MIP maps 2.3 GiB
 
 
 
 Statistics:
+ Scene
+   Shapes 2496084
+   Object instances used 39124
+   Materials 1092
+   Lights 5
+   Object instances created 426
+   AreaLights 4
  Texture
-   Trilinear lookups 19717785305
-   EWA lookups 15317126268
+   EWA lookups 31264267719
+   Trilinear lookups 27952700522
  BVH
    Leaf nodes 896161
    Interior nodes 895734
  Intersections
-   Regular ray intersection tests 22745382237
- Scene
-   Materials 1092
-   Lights 5
-   AreaLights 4
-   Object instances used 39124
-   Object instances created 426
-   Shapes 2496084
+   Regular ray intersection tests 20628774513
  Memory
    Texture MIP maps 2.3 GiB
 

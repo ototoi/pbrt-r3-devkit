@@ -12,14 +12,33 @@ See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
 Statistics:
- Memory
-   Texture MIP maps 25.3 MiB
- BVH
-   Interior nodes 176956
-   Leaf nodes 176957
  Scene
-   Materials 65
    Shapes 533262
    Lights 2
    AreaLights 2
+   Materials 65
+ BVH
+   Interior nodes 176956
+   Leaf nodes 176957
+ Memory
+   Texture MIP maps 25.3 MiB
+
+
+
+Statistics:
+ BVH
+   Leaf nodes 176957
+   Interior nodes 176956
+ Texture
+   Trilinear lookups 4801659458
+   EWA lookups 6040831879
+ Scene
+   AreaLights 2
+   Materials 65
+   Shapes 533262
+   Lights 2
+ Intersections
+   Regular ray intersection tests 89497447235
+ Memory
+   Texture MIP maps 25.3 MiB
 

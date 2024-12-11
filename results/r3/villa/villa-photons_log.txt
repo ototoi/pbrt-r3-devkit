@@ -15,37 +15,37 @@ Statistics:
  Scene
    Object instances created 14
    Object instances used 146
+   Lights 6
    Materials 426
    Shapes 2613420
-   Lights 6
+ Memory
+   Texture MIP maps 1.0 GiB
  BVH
    Leaf nodes 877624
    Interior nodes 877609
- Memory
-   Texture MIP maps 1.0 GiB
 
 
 
 Statistics:
- Memory
-   Texture MIP maps 1.0 GiB
-   SPPM Pixels 59.5 MiB
- Texture
-   EWA lookups 2187974625
-   Trilinear lookups 1175423506
- Scene
-   Shapes 2613420
-   Lights 6
-   Object instances used 146
-   Materials 426
-   Object instances created 14
+ Intersections
+   Shadow ray intersection tests 335857134
+   Regular ray intersection tests 3043128769
  BVH
    Leaf nodes 877624
    Interior nodes 877609
- Intersections
-   Shadow ray intersection tests 335857129
-   Regular ray intersection tests 3043492976
+ Scene
+   Object instances used 146
+   Lights 6
+   Shapes 2613420
+   Object instances created 14
+   Materials 426
+ Texture
+   EWA lookups 2186813257
+   Trilinear lookups 1174262138
  Stochastic Progressive Photon Mapping
    Photon paths followed 1228800000
-   Grid cells per visible point 6.513 avg [ range " 1 " - " 27 "]
+   Grid cells per visible point 6.518 avg [ range " 1 " - " 27 "]
+ Memory
+   SPPM Pixels 59.5 MiB
+   Texture MIP maps 1.0 GiB
 
