@@ -112,6 +112,34 @@ def execute_commands(task_dir, scenes):
                 sys.stdout.write("Elapsed:" + s)
                 f.write(s)
 
+def cat_commands(task_dir, scenes):
+    for scene in scenes:
+        parent = os.path.basename(os.path.dirname(scene))
+        dir = os.path.join(task_dir, parent)
+        command_file = os.path.splitext(os.path.basename(scene))[0] + "_command.txt"
+        with open(os.path.join(dir, command_file), "r") as f:
+            line = f.readlines()
+            (cmd, input, working_dir, log_file, time_file) = line[0].strip().split(",")
+            cmd = os.path.abspath(cmd)
+            input = os.path.abspath(input)
+            working_dir = os.path.abspath(working_dir)
+            output = os.path.join(working_dir, os.path.splitext(os.path.basename(input))[0] + ".exr")
+            # print(cmd)
+            # print(input)
+            # print(working_dir)
+            # command = command[:2]
+            command = [
+                "time",
+                cmd,
+                input,
+                "--cat"
+            ]
+
+            ret = subprocess.run(
+               command, encoding="utf8", cwd=working_dir
+            )
+
+
 def process(args):
     scenes_dir = args.scenes_dir
     input_scenes = args.input_scenes
@@ -120,6 +148,7 @@ def process(args):
     r3_cmd = args.r3_cmd
     task_id = args.task_id
     render_target = args.render_target
+    is_cat = args.cat
 
     is_render = {
         "v3": False,
@@ -147,10 +176,16 @@ def process(args):
     if is_render["r3"]:
         create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
 
-    if is_render["v3"]:
-        execute_commands(os.path.join(id_dir, "v3"), scenes)
-    if is_render["r3"]:
-        execute_commands(os.path.join(id_dir, "r3"), scenes)
+    if is_cat:
+        if is_render["v3"]:
+            cat_commands(os.path.join(id_dir, "v3"), scenes)
+        if is_render["r3"]:
+            cat_commands(os.path.join(id_dir, "r3"), scenes)
+    else:
+        if is_render["v3"]:
+            execute_commands(os.path.join(id_dir, "v3"), scenes)
+        if is_render["r3"]:
+            execute_commands(os.path.join(id_dir, "r3"), scenes)
 
     return 0
 
@@ -172,6 +207,7 @@ def main():
     parser.add_argument("--work_dir", default="./work", help="Working directory")
     parser.add_argument("--task-id", default=None, help="Task ID")
     parser.add_argument("-t", "--render_target", default="all", choices=["all", "v3", "r3"],help="Render target")
+    parser.add_argument("--cat", action="store_true", help="Concatenate output")
 
     args = parser.parse_args()
     return process(args)
