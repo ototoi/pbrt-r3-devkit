@@ -46,7 +46,7 @@ def create_commands(task_dir, scenes, cmd):
         time_file = basename + "_time.txt"
 
         command = [cmd, scene, dir, log_file, time_file]
-        
+
         write_command(command, os.path.join(dir, comman_file))
         commands.append(command)
     return commands
@@ -69,6 +69,7 @@ def get_lines(cmd, dir):
         if not line and proc.poll() is not None:
             break
 
+
 def execute_commands(task_dir, scenes, quick, quick_full_resolution):
     for scene in scenes:
         parent = os.path.basename(os.path.dirname(scene))
@@ -80,7 +81,9 @@ def execute_commands(task_dir, scenes, quick, quick_full_resolution):
             cmd = os.path.abspath(cmd)
             input = os.path.abspath(input)
             working_dir = os.path.abspath(working_dir)
-            output = os.path.join(working_dir, os.path.splitext(os.path.basename(input))[0] + ".exr")
+            output = os.path.join(
+                working_dir, os.path.splitext(os.path.basename(input))[0] + ".exr"
+            )
             # print(cmd)
             # print(input)
             # print(working_dir)
@@ -103,9 +106,9 @@ def execute_commands(task_dir, scenes, quick, quick_full_resolution):
             if os.path.exists(output):
                 continue
 
-            #ret = subprocess.run(
+            # ret = subprocess.run(
             #   command, encoding="utf8", cwd=working_dir
-            #)
+            # )
             start = time.time()
             with open(os.path.join(working_dir, log_file), "w") as f:
                 for line in get_lines(" ".join(command), working_dir):
@@ -116,6 +119,30 @@ def execute_commands(task_dir, scenes, quick, quick_full_resolution):
                 s = str(end - start) + "\n"
                 sys.stdout.write("Elapsed:" + s)
                 f.write(s)
+
+
+def cat_commands(task_dir, scenes):
+    for scene in scenes:
+        parent = os.path.basename(os.path.dirname(scene))
+        dir = os.path.join(task_dir, parent)
+        command_file = os.path.splitext(os.path.basename(scene))[0] + "_command.txt"
+        with open(os.path.join(dir, command_file), "r") as f:
+            line = f.readlines()
+            (cmd, input, working_dir, log_file, time_file) = line[0].strip().split(",")
+            cmd = os.path.abspath(cmd)
+            input = os.path.abspath(input)
+            working_dir = os.path.abspath(working_dir)
+            output = os.path.join(
+                working_dir, os.path.splitext(os.path.basename(input))[0] + ".exr"
+            )
+            # print(cmd)
+            # print(input)
+            # print(working_dir)
+            # command = command[:2]
+            command = ["time", cmd, input, "--cat"]
+
+            ret = subprocess.run(command, encoding="utf8", cwd=working_dir)
+
 
 def process(args):
     scenes_dir = args.scenes_dir
@@ -129,6 +156,7 @@ def process(args):
     quick_full_resolution = args.quick_full_resolution
     if quick_full_resolution:
         quick = True
+    is_cat = args.cat
 
     is_render = {
         "v3": False,
@@ -141,7 +169,6 @@ def process(args):
         is_render["v3"] = True
     elif render_target == "r3":
         is_render["r3"] = True
-
 
     scenes = get_scenes(scenes_dir, input_scenes)
     # print(scenes)
@@ -156,11 +183,16 @@ def process(args):
     if is_render["r3"]:
         create_commands(os.path.join(id_dir, "r3"), scenes, r3_cmd)
 
-    if is_render["v3"]:
-        execute_commands(os.path.join(id_dir, "v3"), scenes, quick, False)
-    if is_render["r3"]:
-        execute_commands(os.path.join(id_dir, "r3"), scenes, quick, quick_full_resolution)
-
+    if is_cat:
+        if is_render["v3"]:
+            cat_commands(os.path.join(id_dir, "v3"), scenes)
+        if is_render["r3"]:
+            cat_commands(os.path.join(id_dir, "r3"), scenes)
+    else:
+        if is_render["v3"]:
+            execute_commands(os.path.join(id_dir, "v3"), scenes)
+        if is_render["r3"]:
+            execute_commands(os.path.join(id_dir, "r3"), scenes)
     return 0
 
 
@@ -180,9 +212,20 @@ def main():
     )
     parser.add_argument("--work_dir", default="./work", help="Working directory")
     parser.add_argument("--task-id", default=None, help="Task ID")
-    parser.add_argument("-t", "--render_target", default="all", choices=["all", "v3", "r3"],help="Render target")
+    parser.add_argument(
+        "-t",
+        "--render_target",
+        default="all",
+        choices=["all", "v3", "r3"],
+        help="Render target",
+    )
     parser.add_argument("-q", "--quick", action="store_true", help="Quick render")
-    parser.add_argument("--quick-full-resolution", action="store_true", help="Quick render with full resolution")
+    parser.add_argument(
+        "--quick-full-resolution",
+        action="store_true",
+        help="Quick render with full resolution",
+    )
+    parser.add_argument("--cat", action="store_true", help="Concatenate output")
 
     args = parser.parse_args()
     return process(args)
