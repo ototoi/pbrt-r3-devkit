@@ -193,9 +193,9 @@ def process(args):
             cat_commands(os.path.join(id_dir, "r3"), scenes)
     else:
         if is_render["v3"]:
-            execute_commands(os.path.join(id_dir, "v3"), scenes)
+            execute_commands(os.path.join(id_dir, "v3"), scenes, quick, quick_full_resolution)
         if is_render["r3"]:
-            execute_commands(os.path.join(id_dir, "r3"), scenes)
+            execute_commands(os.path.join(id_dir, "r3"), scenes, quick, quick_full_resolution)
     return 0
 
 
