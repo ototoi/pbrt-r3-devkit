@@ -11,31 +11,24 @@ The source code to pbrt (but *not* the book contents) is covered by the BSD Lice
 See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
-Statistics:
- Scene
-   Shapes 4
-   Materials 2
-   Lights 2
- BVH
-   Leaf nodes 1
- Texture
-   Trilinear lookups 8388608
- Memory
-   Texture MIP maps 32.0 MiB
 
 
-
-Statistics:
- Memory
-   Texture MIP maps 32.0 MiB
- Texture
-   Trilinear lookups 5513500168
- Scene
-   Lights 2
-   Materials 2
-   Shapes 4
- Intersections
-   Regular ray intersection tests 25842917117
- BVH
-   Leaf nodes 1
-
+  Statistics:
+    BVH
+      Leaf nodes 1
+    Integrator
+      Path length 0.408 avg [ range " 0 " - " 5 "]
+      Zero-radiance paths 26.208%% (2203438088 / 8407371555)
+    Intersections
+      Ray-triangle intersection tests 5.556%% (2497744317 / 44956838038)
+      Regular ray intersection tests 22523873812
+    Memory
+      Film pixels 9.8 MiB
+      Texture MIP maps 32.0 MiB
+      Triangle meshes 0.1 KB
+    Scene
+      Lights 2
+      Materials 2
+      Shapes 4
+    Texture
+      Trilinear lookups 6193081197
