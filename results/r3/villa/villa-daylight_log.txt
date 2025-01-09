@@ -18,11 +18,11 @@ See the file LICENSE.txt for the conditions of the license.
       Interior nodes 877609
       Leaf nodes 877624
     Integrator
-      Path length 2.607 avg [ range " 0 " - " 5 "]
-      Zero-radiance paths 53.970%% (2768102444 / 5128953079)
+      Path length 2.172 avg [ range " 0 " - " 5 "]
+      Zero-radiance paths 56.865%% (2618977784 / 4605643116)
     Intersections
-      Ray-triangle intersection tests 19.930%% (24463005518 / 122747496695)
-      Regular ray intersection tests 21404591563
+      Ray-triangle intersection tests 17.554%% (22367816011 / 127420004574)
+      Regular ray intersection tests 19685413299
     Memory
       Film pixels 10.6 MiB
       Texture MIP maps 1.1 GiB
@@ -34,5 +34,5 @@ See the file LICENSE.txt for the conditions of the license.
       Object instances used 146
       Shapes 2613420
     Texture
-      EWA lookups 5800970143
-      Trilinear lookups 7016964966
+      EWA lookups 5241032890
+      Trilinear lookups 5601629260
