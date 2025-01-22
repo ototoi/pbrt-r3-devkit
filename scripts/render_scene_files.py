@@ -101,7 +101,8 @@ def execute_commands(task_dir, scenes, quick, quick_full_resolution):
                 else:
                     command.append("--quick")
             if cmd.find("pbrt-r3") >= 0:
-                print("pbrt-r3 --no-profile")
+                print("pbrt-r3 --no-stats --no-profile")
+                command.append("--no-stats")
                 command.append("--no-profile")
             print(f"cd {working_dir}")
             print(" ".join(command))
