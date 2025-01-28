@@ -11,36 +11,5 @@ The source code to pbrt (but *not* the book contents) is covered by the BSD Lice
 See the file LICENSE.txt for the conditions of the license.
 --------------------------------------------------------------------------------------
 
-Statistics:
- BVH
-   Leaf nodes 191426
-   Interior nodes 191425
- Texture
-   Trilinear lookups 134217728
- Scene
-   Materials 12
-   Lights 1
-   Shapes 619149
- Memory
-   Texture MIP maps 512.0 MiB
 
-l: RGBSpectrum { c: [0.0, 0.0, 0.0] }
-l: RGBSpectrum { c: [0.0, 0.0, 0.0] }
-l: RGBSpectrum { c: [0.0, 0.0, 0.0] }
-
-
-Statistics:
- Intersections
-   Regular ray intersection tests 7635157020
- BVH
-   Leaf nodes 191426
-   Interior nodes 191425
- Texture
-   Trilinear lookups 2818474701
- Scene
-   Lights 1
-   Materials 12
-   Shapes 619149
- Memory
-   Texture MIP maps 512.0 MiB
 

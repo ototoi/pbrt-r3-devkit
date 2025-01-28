@@ -13,26 +13,3 @@ See the file LICENSE.txt for the conditions of the license.
 
 
 
-  Statistics:
-    BVH
-      Interior nodes 877609
-      Leaf nodes 877624
-    Integrator
-      Path length 2.172 avg [ range " 0 " - " 5 "]
-      Zero-radiance paths 56.865%% (2618977784 / 4605643116)
-    Intersections
-      Ray-triangle intersection tests 17.554%% (22367816011 / 127420004574)
-      Regular ray intersection tests 19685413299
-    Memory
-      Film pixels 10.6 MiB
-      Texture MIP maps 1.1 GiB
-      Triangle meshes 80.1 MiB
-    Scene
-      Lights 2
-      Materials 426
-      Object instances created 14
-      Object instances used 146
-      Shapes 2613420
-    Texture
-      EWA lookups 5241032890
-      Trilinear lookups 5601629260
