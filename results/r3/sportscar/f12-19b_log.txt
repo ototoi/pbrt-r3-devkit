@@ -1,4 +1,4 @@
-pbrt-r3 version 3.0.1 [Detected 24 cores]
+pbrt-r3 version 3.0.9 [Detected 24 cores]
 
 This is an unofficial Rust port of pbrt-v3.
 The source code of this port is covered by the BSD License.
