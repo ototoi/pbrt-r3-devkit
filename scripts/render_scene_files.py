@@ -1,4 +1,7 @@
+import codecs
+import errno
 import os
+import pty
 import sys
 import time
 import argparse
@@ -52,22 +55,51 @@ def create_commands(task_dir, scenes, cmd):
     return commands
 
 
-def get_lines(cmd, dir):
-    proc = subprocess.Popen(
-        cmd,
-        encoding="utf8",
-        cwd=dir,
-        shell=True,
-        stdout=subprocess.PIPE,
-    )
+def get_output_chunks(cmd, dir):
+    # Some renderers hide progress bars when stdout is not a TTY.
+    master_fd, slave_fd = pty.openpty()
 
-    while True:
-        line = proc.stdout.readline()
-        if line:
-            yield line
+    try:
+        proc = subprocess.Popen(
+            cmd,
+            cwd=dir,
+            shell=True,
+            stdout=slave_fd,
+            stderr=slave_fd,
+            close_fds=True,
+        )
+    except Exception:
+        os.close(master_fd)
+        raise
+    finally:
+        os.close(slave_fd)
 
-        if not line and proc.poll() is not None:
-            break
+    decoder = codecs.getincrementaldecoder("utf8")(errors="replace")
+
+    try:
+        while True:
+            try:
+                data = os.read(master_fd, 4096)
+            except OSError as e:
+                if e.errno == errno.EIO:
+                    break
+                raise
+
+            if not data:
+                break
+
+            yield decoder.decode(data)
+
+        tail = decoder.decode(b"", final=True)
+        if tail:
+            yield tail
+
+        proc.wait()
+
+        if proc.returncode != 0:
+            raise subprocess.CalledProcessError(proc.returncode, cmd)
+    finally:
+        os.close(master_fd)
 
 
 def execute_commands(task_dir, scenes, quick, quick_full_resolution):
@@ -111,13 +143,16 @@ def execute_commands(task_dir, scenes, quick, quick_full_resolution):
             # )
             start = time.time()
             with open(os.path.join(working_dir, log_file), "w") as f:
-                for line in get_lines(" ".join(command), working_dir):
-                    sys.stdout.write(line)
-                    f.write(line)
+                for chunk in get_output_chunks(" ".join(command), working_dir):
+                    sys.stdout.write(chunk)
+                    sys.stdout.flush()
+                    f.write(chunk)
+                    f.flush()
             end = time.time()
             with open(os.path.join(working_dir, time_file), "w") as f:
                 s = str(end - start) + "\n"
                 sys.stdout.write("Elapsed:" + s)
+                sys.stdout.flush()
                 f.write(s)
 
 
